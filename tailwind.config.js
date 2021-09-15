@@ -1,6 +1,7 @@
 /* Import modules. */
 const colors = require('tailwindcss/colors')
 
+
 module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
@@ -19,5 +20,6 @@ module.exports = {
     },
     plugins: [
         require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
     ],
 }
