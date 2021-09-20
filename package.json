@@ -1,6 +1,6 @@
 {
   "name": "sbch-exchange",
-  "version": "21.9.15",
+  "version": "21.9.20",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,6 +14,8 @@
     "core-js": "3.6.5",
     "moment": "2.29.1",
     "numeral": "2.0.6",
+    "qrcode": "1.4.4",
+    "superagent": "6.1.0",
     "uuid": "8.3.2",
     "vue": "3.0.0",
     "vue-router": "4.0.0-0",
