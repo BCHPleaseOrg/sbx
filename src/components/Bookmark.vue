@@ -1,6 +1,5 @@
 <template>
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <main class="fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <main v-if="showBookmark" class="fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
         <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
             <!--
           Background overlay, show/hide based on modal state.
@@ -59,16 +58,19 @@
                 </div>
                 <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                     <button
+                        @click="bookmark"
                         type="button"
                         class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
                     >
-                        Deactivate
+                        Bookmark
                     </button>
+
                     <button
+                        @click="dismiss"
                         type="button"
                         class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
                     >
-                        Cancel
+                        Dismiss
                     </button>
                 </div>
             </div>
@@ -81,6 +83,9 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
+    props: {
+        showBookmark: Boolean,
+    },
     components: {
         // HelloWorld
     },
@@ -90,7 +95,7 @@ export default {
         }
     },
     methods: {
-        addToFavorites() {
+        bookmark() {
             if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
                   window.sidebar.addPanel(document.title, window.location.href, '');
                 } else if (window.external && ('AddFavorite' in window.external)) { // IE Favorite
@@ -101,8 +106,14 @@ export default {
                 } else { // webkit - safari/chrome
                   alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
                 }
+
+                this.$emit('close')
         },
-        
+
+        dismiss() {
+            this.$emit('close')
+        },
+
     },
     created: function () {
         //

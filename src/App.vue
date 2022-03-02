@@ -3,7 +3,7 @@
 
     <Footer />
 
-    <Bookmark />
+    <Bookmark :showBookmark="showBookmark" @close="closeBookmark" />
 </template>
 
 <script>
@@ -15,6 +15,25 @@ export default {
     components: {
         Bookmark,
         Footer,
+    },
+    data: () => {
+        return {
+            showBookmark: null,
+        }
+    },
+    methods: {
+        closeBookmark() {
+            this.showBookmark = false
+        },
+
+    },
+    created: function () {
+        /* Show bookmark. */
+        // FIXME
+        this.showBookmark = true
+    },
+    mounted: function () {
+        //
     },
 }
 </script>
