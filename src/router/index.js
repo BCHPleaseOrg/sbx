@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home'
 import About from '../views/About'
 import Auth from '../views/Auth'
+import Exchange from '../views/Exchange'
 import Help from '../views/Help'
 
 const routes = [
@@ -20,6 +21,10 @@ const routes = [
         component: Auth,
     },
     {
+        path: '/exchange',
+        component: Exchange,
+    },
+    {
         path: '/help',
         component: Help,
     },
@@ -27,7 +32,7 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
-    routes
+    routes,
 })
 
 export default router
