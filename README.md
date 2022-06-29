@@ -1,34 +1,15 @@
-# sbch.exchange
+# Smart Bitcoin Exchange
 
-## Project setup
-```
-yarn install
-```
+https://sbx.cash
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+> __WARNING!__ This network is still under active development and MUST be treated as ALPHA software. __USE AT YOUR OWN RISK!__
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Smart Bitcoin Exchange (SBX) is a distributed Proof-of-Stake (dPOS) network of Smart Bitcoin stakeholders who efficiently manage a suite of trustless smart contracts using Free and Open Source Software (FOSS).
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## The Problem
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+The current treasury of SmartBCH is controlled by a centralized, "for-profit" entity who was assigned to the task as a "temporary" solution that would allow the project to launch.
 
-### Lints and fixes files
-```
-yarn lint
-```
+## The Solution
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A decentralized pool of "trusted" and "vested" individuals/teams can utilize the new XHedge protocol to manage the job of securing the treasury of SmartBCH.
