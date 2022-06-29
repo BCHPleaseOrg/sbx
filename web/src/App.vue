@@ -1,13 +1,12 @@
 <template>
     <router-view />
+
     <Footer />
-    <Modal :showModal="showModal" @close="closeModal" />
 </template>
 
 <script>
 /* Import components. */
 import Footer from '@/components/Footer'
-import Modal from '@/components/Modal'
 
 /* Set constants. */
 const RETRY_DELAY = 500 // 0.5 seconds
@@ -15,12 +14,11 @@ const RETRY_ATTEMPTS = 5 // approx. 2.5 seconds
 
 export default {
     components: {
-        Modal,
         Footer,
     },
     data: () => {
         return {
-            showModal: null,
+            //
         }
     },
     methods: {
@@ -69,13 +67,12 @@ export default {
         },
 
         closeModal() {
-            this.showModal = false
+            //
         },
 
     },
     created: function () {
-        /* Show modal. */
-        this.showModal = false
+        //
     },
     mounted: function () {
         //

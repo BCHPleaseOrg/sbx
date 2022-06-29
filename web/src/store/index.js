@@ -31,7 +31,7 @@ export default createStore({
         },
 
         getShuffleCashAbi() {
-            return require('../../abis/ShuffleCash.json')
+            return require('../../../abis/ShuffleCash.json')
         },
 
         getShuffleCashAddr(_state) {
