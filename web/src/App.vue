@@ -1,4 +1,6 @@
 <template>
+    <Header />
+
     <router-view />
 
     <Footer />
@@ -7,6 +9,7 @@
 <script>
 /* Import components. */
 import Footer from '@/components/Footer'
+import Header from '@/components/Header'
 
 /* Set constants. */
 const RETRY_DELAY = 500 // 0.5 seconds
@@ -15,6 +18,7 @@ const RETRY_ATTEMPTS = 5 // approx. 2.5 seconds
 export default {
     components: {
         Footer,
+        Header,
     },
     data: () => {
         return {
