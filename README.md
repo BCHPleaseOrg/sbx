@@ -4,12 +4,32 @@ https://sbx.cash
 
 > __WARNING!__ This network is still under active development and MUST be treated as ALPHA software. __USE AT YOUR OWN RISK!__
 
-Smart Bitcoin Exchange (SBX) is a distributed Proof-of-Stake (dPOS) network of Smart Bitcoin stakeholders who efficiently manage a suite of trustless smart contracts using Free and Open Source Software (FOSS).
+![Smart Bitcoin Exchange](https://sbx.cash/poster.jpg)
+
+Smart Bitcoin Exchange (SBX) is a distributed Proof-of-Stake (dPOS) network of Smart Bitcoin stakeholders tasked with effectively managing the SmartBCH bridge using a suite of trustless, Free and Open Source Software (FOSS) smart contracts.
 
 ## The Problem
 
-The current treasury of SmartBCH is controlled by a centralized, "for-profit" entity who was assigned to the task as a "temporary" solution that would allow the project to launch.
+The current treasury of SmartBCH is controlled by a centralized, "for-profit" entity that was assigned to the task as a "temporary" solution which permitted the initial launch of the sidechain.
 
-## The Solution
+## Our Solution
 
-A decentralized pool of "trusted" and "vested" individuals/teams can utilize the new XHedge protocol to manage the job of securing the treasury of SmartBCH.
+A NEW SBX Server run by a decentralized pool of "financially invested" individuals and teams that will effectively manage the treasury and all bridge activities. The pool will be determined (and weighted) utilizing the NEW XHedge Validators network currently responsible for 1/2 the security of the SmartBCH network.
+
+> __Good to know:__ SBX is an emergency decentralized solution to solving a SmartBCH treasury risk imposed by the "temporary" custodian that was assigned responsibility at the launch of the sidechain.
+
+## Smart Contracts
+
+...
+
+## SBX Server
+
+...
+
+## Contributing
+
+...
+
+## License
+
+MIT
