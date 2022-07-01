@@ -1,0 +1,106 @@
+# The Problem
+
+The current treasury of SmartBCH is controlled by a centralized, "for-profit" entity that was assigned to the task as a "temporary" solution which permitted the initial launch of the sidechain.
+
+# Our Solution
+
+A NEW SBX Server run by a decentralized pool of "financially invested" individuals and teams that will effectively manage the treasury and all bridge activities. The pool will be determined (and weighted) utilizing the NEW XHedge Validators network currently responsible for 1/2 the security of the SmartBCH network.
+
+> __Good to know:__ SBX is an emergency decentralized solution to solving a SmartBCH treasury risk imposed by the "temporary" custodian that was assigned responsibility at the launch of the sidechain.
+
+# Project Goals
+
+1. Build..
+
+# Sponsors
+
+We appreciate your support in bootstrapping this exchange and helping to receover the SmartBCH network.
+
+### The TOP 3 contibutors will receive a split 15% of the new $SBX governance token. You MUST include your address (or other contact) to qualify.
+
+> NOTE: The remaining tokens are currently unassigned.
+
+$SBX will be used to vote on future governance decisions for the exchange.
+
+# Introducing the SHA-Matrix
+
+This scheme creates a decentralized "trust" network which offers an immediate alternative to the centralized bridge problem, until SHA-Gate is ready for production use.
+
+The idea behind SHA-Gate is to package the entire treasury system into an elegant smart contract. After introspection was added to Bitcoin Script in the May 2022 Bitcoin Cash upgrade, this became a real possibility. However, it still remains a complicated scheme which involves the use of Enclaves run on the 3rd-party networks (eg. AWS, Azure) that support them.
+
+The SHA-Matrix will be a far simpler solution, using more "conventional" methods and designed around the idea of a Circle of Trust. The trust will be established by a large group of individuals and/or teams that have interests MOST inline with the interests of the Smart Bitcoin (SBCH) network.
+
+---
+
+We propose to organize a team of capable individuals to oversea the initial development and design of the NEW Smart Bitcoin Exchange (SBX).
+
+Our goals are to:
+
+1. Organize a team.
+2. Build a server.
+
+# Campaign Budget
+
+The __100 BCH__ _(approx. US$10K on 2022.7.1)_ raised during this campaign will be directly applied towards deploying a __Minimum Viable Product (MVP)__ for the new exchange and its supporting services.
+
+All features and services will undergo a strict procedure from start to finish:
+
+1. Design
+2. Review
+3. Build
+4. Deploy
+
+### SBX Server Development - 30 BCH
+
+The NEW Smart Bitcoin Exchange (SBX) Server will be a multi-platform application for managing the respsiblities of the Validators overseeing the exchange.
+
+### SHA-Matrix Contract Development - 40 BCH
+
+A suite of smart contracts will be deployed to manage the SBX.
+
+- ↳ SHA_Matrix_Exchange.cash (CashScript)
+- ↳ SHA_Matrix_Exchange.sol (Solidity)
+- ↳ SHA_Matrix_Treasury.sol (Solidity)
+- ↳ SHA_Matrix_Gov.sol (Solidity)
+- ↳ [SBX.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/SBX.sol) (Solidity)
+- ↳ cfBCH.sol (Solidity)
+- ↳ Bailout.sol (Solidity)
+
+### API Deployment - 15 BCH
+
+__https://api.sbx.cash__
+
+An open Application Protocol Interface (API) will allow more flexible integration with the SBX.
+
+A new REST-based will be deployed to provide RPC services.
+
+VPS services will be provided for at least 90-days, until a long-term funding solution can be determined.
+
+### Customization - 10 BCH
+
+Our team will work directly with the individual participants of the exchange to integrate with their respective services. Software will be modified and/or extended to best meet the needs of the SmartBCH services.
+
+### Documentation - 5 BCH
+
+A dedicated site for documentation will be created to support all parties involved in the SBX.
+
+# About Me
+
+My name is [Shomari (nyusternie)](https://twitter.com/ShomariPrince). I founded Bitcoin Please (https://bchplease.org) as a non-profit organization back in January '20 to manage my FOSS development projects within the Bitcoin Cash community.
+
+Over the past 2 years, I've deployed several community projects, namely:
+
+1. Causes Cash - [https://causes.cash](https://causes.cash/events)
+2. Shuffle Cash - https://shuffle.cash
+3. Smartstarter - [https://smartstarter.cash](https://flipstarter.smartstarter.cash)
+
+With more projects in the works to support BUIDLers, such as:
+
+1. Cash DevOps - https://devops.cash
+2. Bitcoin Builders - https://bch.builders
+
+# Keep In Touch
+
+Email support [at] bchplease [dot] org
+
+Join our open Slack community
