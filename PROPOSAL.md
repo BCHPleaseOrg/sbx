@@ -154,17 +154,17 @@ In the spirit of full transparency, it's critical that the source code protectin
 
 As of Friday, July 1st 2022, the condition of the "locked" $BCH funds securing the SmartBCH sidechain are in question. We propose to create a new "socialized" token to absorb the current debt incurred.
 
-[address]
-103,000.1234 $BCH
-Valued at US$10,000,000.88
+- [bitcoincash:qptplw8rl7r7nzmze8mnhrdc3guny3p2ng8vz443qu](https://blockchair.com/bitcoin-cash/address/qptplw8rl7r7nzmze8mnhrdc3guny3p2ng8vz443qu)
+- 101,382.30027849 $BCH
+- Valued at US$10,269,013.20
 
-103,000 $rvBCH (Recovery Value) NFTs will be minted.
+101,382 $rvBCH (Recovery Value) NFTs will be minted.
 
 _(the token name is NOT final)_
 
-The NFT collection will initially be reserved using the SBX website. $BCH received from the sale will be deposited directly into the SBX Treasury and returned in the event that the campaign is canceled.
+The NFT collection will initially be reserved using the SBX website. $BCH received from the sale will be deposited directly into the SBX Treasury and returned (by participating XHedge Validators) in the event that the campaign is canceled or unsuccessful.
 
-If the campaign is full realized (Flipstarter-style), then the NFTs will be minted and become further tradeable on marketplaces like Oasis. Token holders will each be incentivized to encourage a timely resolution to the current treasury's condition.
+If the campaign is fully committed (Flipstarter-style), then the NFTs will be minted and become further tradeable on marketplaces like Oasis. Token holders will each be incentivized to encourage a timely resolution to the current treasury's condition.
 
 During this recovery time, fees will be earned by the exchange and made available for redemption by ANY token holder.
 
@@ -174,8 +174,8 @@ Once ALL funds have been redeemed, no more Exchange fees will be sent to the Bai
 
 > NOTE: At the constant rate of 0.1% for transaction fees, it will take $10B in transactions to recover the full cost of the "original" treasury.
 
-[address]
-19,000,000 $SBCH
-Valued at US$1,900,000,000
+- [0x8c4F85ec71C966e45A6F4291f5271f8114a7Ba15](https://sonar.cash/address/0x8c4F85ec71C966e45A6F4291f5271f8114a7Ba15/transactions)
+- 20,898,320.909516495688680872 $SBCH
+- Valued at US$2,115,328,042
 
 These funds should immediately be blocked and forked back to a "trusted" custodian (eg. SmartBCH team) until the SBX Treasury is ready to receive the funds and resume bridge activities.
