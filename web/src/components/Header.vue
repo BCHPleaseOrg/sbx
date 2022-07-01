@@ -1,6 +1,7 @@
 <template>
     <main class="relative">
-        <div class="bg-gray-900 pt-6">
+
+        <div class="bg-gray-900 py-6">
             <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
                 <div class="flex items-center flex-1">
                     <div class="flex items-center justify-between w-full md:w-auto">
@@ -28,21 +29,21 @@
                     </div>
 
                     <div class="hidden space-x-8 md:flex md:ml-10">
-                        <a href="javascript://" class="text-base font-medium text-white hover:text-gray-300">
+                        <router-link to="/" class="text-base font-medium text-white hover:text-gray-300">
                             Home
-                        </a>
+                        </router-link>
 
-                        <a href="javascript://" class="text-base font-medium text-white hover:text-gray-300">
+                        <a href="https://docs.sbx.cash" target="_blank" class="text-base font-medium text-white hover:text-gray-300">
                             Docs
                         </a>
 
-                        <a href="javascript://" class="text-base font-medium text-white hover:text-gray-300">
+                        <router-link to="/$sbx" class="text-base font-medium text-white hover:text-gray-300">
                             $SBX
-                        </a>
+                        </router-link>
 
-                        <a href="javascript://" class="text-base font-medium text-white hover:text-gray-300">
+                        <router-link to="/faq" class="text-base font-medium text-white hover:text-gray-300">
                             FAQ
-                        </a>
+                        </router-link>
                     </div>
                 </div>
 
@@ -64,7 +65,7 @@
       From: "opacity-100 scale-100"
       To: "opacity-0 scale-95"
   -->
-        <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
+        <div class="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
             <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div class="px-5 pt-4 flex items-center justify-between">
                     <div>

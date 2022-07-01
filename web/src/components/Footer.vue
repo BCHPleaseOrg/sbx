@@ -11,25 +11,25 @@
                             </h3>
                             <ul role="list" class="mt-4 space-y-4">
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Marketing
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Analytics
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Commerce
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Insights
                                     </a>
                                 </li>
@@ -41,25 +41,25 @@
                             </h3>
                             <ul role="list" class="mt-4 space-y-4">
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Pricing
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Documentation
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Guides
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         API Status
                                     </a>
                                 </li>
@@ -73,31 +73,31 @@
                             </h3>
                             <ul role="list" class="mt-4 space-y-4">
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         About
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Blog
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Jobs
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Press
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Partners
                                     </a>
                                 </li>
@@ -109,19 +109,19 @@
                             </h3>
                             <ul role="list" class="mt-4 space-y-4">
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Claim
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Privacy
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="text-base text-gray-300 hover:text-white">
+                                    <a href="javascript://" class="text-base text-gray-300 hover:text-white">
                                         Terms
                                     </a>
                                 </li>
@@ -216,7 +216,7 @@
             </div>
             <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
                 <div class="flex space-x-6 md:order-2">
-                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <a href="javascript://" class="text-gray-400 hover:text-gray-300">
                         <span class="sr-only">Facebook</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path
@@ -227,7 +227,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <a href="javascript://" class="text-gray-400 hover:text-gray-300">
                         <span class="sr-only">Instagram</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path
@@ -238,7 +238,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <a href="javascript://" class="text-gray-400 hover:text-gray-300">
                         <span class="sr-only">Twitter</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path
@@ -247,7 +247,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <a href="javascript://" class="text-gray-400 hover:text-gray-300">
                         <span class="sr-only">GitHub</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path
@@ -258,7 +258,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <a href="javascript://" class="text-gray-400 hover:text-gray-300">
                         <span class="sr-only">Dribbble</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path

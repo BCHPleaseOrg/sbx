@@ -4,7 +4,8 @@ import Home from '../views/Home'
 import About from '../views/About'
 import Auth from '../views/Auth'
 import Exchange from '../views/Exchange'
-import Help from '../views/Help'
+import FAQ from '../views/FAQ'
+import $SBX from '../views/$SBX'
 
 const routes = [
     {
@@ -25,8 +26,12 @@ const routes = [
         component: Exchange,
     },
     {
-        path: '/help',
-        component: Help,
+        path: '/faq',
+        component: FAQ,
+    },
+    {
+        path: '/$sbx',
+        component: $SBX,
     },
 ]
 

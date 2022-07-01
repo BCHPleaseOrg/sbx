@@ -8,7 +8,7 @@
 
 <script>
 /* Import components. */
-import Footer from '@/components/Footer'
+import Footer from '@/components/FooterMin'
 import Header from '@/components/Header'
 
 /* Set constants. */
