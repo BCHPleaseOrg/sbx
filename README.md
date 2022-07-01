@@ -4,7 +4,7 @@ https://sbx.cash
 
 > __WARNING!__ This network is still under active development and MUST be treated as ALPHA software. __USE AT YOUR OWN RISK!__
 
-![Smart Bitcoin Exchange](https://sbx.cash/poster.jpg)
+![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
 
 Smart Bitcoin Exchange (SBX) is a distributed Proof-of-Stake (dPOS) network of Smart Bitcoin stakeholders tasked with effectively managing the SmartBCH bridge using a suite of trustless, Free and Open Source Software (FOSS) smart contracts.
 

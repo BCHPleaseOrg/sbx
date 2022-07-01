@@ -1,8 +1,10 @@
 # Smart Bitcoin Exchange
 
-https://sbx.cash
+### https://sbx.cash
 
 Author(s): Shomari (nyusternie)
+
+![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
 
 # Introduction
 

@@ -10,7 +10,9 @@ A NEW SBX Server run by a decentralized pool of "financially invested" individua
 
 > __Good to know:__ SBX is an emergency decentralized solution to solving a SmartBCH treasury risk imposed by the "temporary" custodian that was assigned responsibility at the launch of the sidechain.
 
-# Project Goals
+![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
+
+# Campaign Goals
 
 1. Build..
 
@@ -57,9 +59,13 @@ All features and services will undergo a strict procedure from start to finish:
 
 ### SBX Server Development - 30 BCH
 
+> Approx. 30 hours @ $100/hr
+
 The NEW Smart Bitcoin Exchange (SBX) Server will be a multi-platform application for managing the respsiblities of the Validators overseeing the exchange.
 
 ### SHA-Matrix Contract Development - 40 BCH
+
+> Approx. 40 hours @ $100/hr
 
 A suite of smart contracts will be deployed to manage the SBX.
 
@@ -73,6 +79,8 @@ A suite of smart contracts will be deployed to manage the SBX.
 
 ### API Deployment - 15 BCH
 
+> Approx. 15 hours @ $100/hr
+
 __https://api.sbx.cash__
 
 An open Application Protocol Interface (API) will allow more flexible integration with the SBX.
@@ -83,9 +91,13 @@ VPS services will be provided for at least 90-days, until a long-term funding so
 
 ### Customization - 10 BCH
 
+> Approx. 10 hours @ $100/hr
+
 Our team will work directly with the individual participants of the exchange to integrate with their respective services. Software will be modified and/or extended to best meet the needs of the SmartBCH services.
 
 ### Documentation - 5 BCH
+
+> Approx. 25 hours @ $20/hr
 
 A dedicated site for documentation will be created to support all parties involved in the SBX.
 
