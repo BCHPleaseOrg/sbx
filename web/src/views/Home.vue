@@ -9,7 +9,10 @@
                             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                                 <div class="lg:py-24">
                                     <a href="https://gitlab.com/bchplease/sbx" target="_blank" class="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-                                        <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">
+                                        <span class="sm:hidden px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">
+                                            We're building!
+                                        </span>
+                                        <span class="hidden sm:block px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">
                                             We've started building!
                                         </span>
 
@@ -28,12 +31,12 @@
                                         </span>
 
                                         <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">
-                                            for SmartBCH
+                                            to SmartBCH
                                         </span>
                                     </h1>
 
                                     <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                                        <strong>Smart Bitcoin Exchange (SBX)</strong> is a distributed Proof-of-Stake (dPOS) network of Smart Bitcoin stakeholders tasked with effectively managing the SmartBCH bridge using a suite of trustless, Free and Open Source Software (FOSS) smart contracts.
+                                        <strong>Smart Bitcoin Exchange (SBX)</strong> is a distributed Proof-of-Stake (dPOS) network of SmartBCH stakeholders whom effectively manage the assets of the SmartBCH bridge using a suite of trustless, Free and Open Source Software (FOSS) smart contracts.
                                     </p>
 
                                     <div class="mt-10">
@@ -48,9 +51,9 @@
                                                 </div>
                                             </div>
 
-                                            <p class="mt-3 text-sm text-gray-300 sm:mt-4">
+                                            <p class="mx-2 sm:xl-1 mt-3 text-xs sm:text-sm text-gray-300 sm:mt-4">
                                                 <strong>Note to Sponsors:</strong>
-                                                The <strong>TOP 3 contributors</strong> will each be rewarded with a <strong>3% share</strong> of the 21M $SBX token distribution.
+                                                In the event of a successful campaign, the <strong>TOP 3 contributors</strong> will each be awarded a <strong>3% share</strong> of the 21M $SBX token distribution.
                                             </p>
                                         </form>
                                     </div>

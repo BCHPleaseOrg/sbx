@@ -10,8 +10,8 @@
                     Discussions
                 </p>
 
-                <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-                    Find out what's New and Noteworthy in the world of Smart Bitcoin.
+                <p class="mt-5 mx-auto max-w-prose text-sm sm:text-xl text-gray-500">
+                    Discover what's New and Noteworthy in the world of SmartBCH.
                     Then join the discussions to share your own bits of wisdom.
                 </p>
             </div>
@@ -72,96 +72,6 @@
                     </div>
                 </a>
 
-                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="" />
-                    </div>
-
-                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <div class="flex-1">
-                            <p class="text-sm font-medium text-cyan-600">
-                                <a href="javascript://" class="hover:underline"> Video </a>
-                            </p>
-
-                            <a href="javascript://" class="block mt-2">
-                                <p class="text-xl font-semibold text-gray-900">How to use search engine optimization to drive sales</p>
-
-                                <p class="mt-3 text-base text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo
-                                    laudantium.
-                                </p>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 flex items-center">
-                            <div class="flex-shrink-0">
-                                <a href="javascript://">
-                                    <img
-                                        class="h-10 w-10 rounded-full"
-                                        src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                        alt="Brenna Goyette"
-                                    />
-                                </a>
-                            </div>
-
-                            <div class="ml-3">
-                                <p class="text-sm font-medium text-gray-900">
-                                    <a href="javascript://" class="hover:underline"> Brenna Goyette </a>
-                                </p>
-
-                                <div class="flex space-x-1 text-sm text-gray-500">
-                                    <time datetime="2020-03-10"> Mar 10, 2020 </time>
-                                    <span aria-hidden="true"> &middot; </span>
-                                    <span> 4 min read </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="" />
-                    </div>
-
-                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <div class="flex-1">
-                            <p class="text-sm font-medium text-cyan-600">
-                                <a href="javascript://" class="hover:underline"> Case Study </a>
-                            </p>
-
-                            <a href="javascript://" class="block mt-2">
-                                <p class="text-xl font-semibold text-gray-900">Improve your customer experience</p>
-                                <p class="mt-3 text-base text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
-                                </p>
-                            </a>
-                        </div>
-
-                        <div class="mt-6 flex items-center">
-                            <div class="flex-shrink-0">
-                                <a href="javascript://">
-                                    <img
-                                        class="h-10 w-10 rounded-full"
-                                        src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                        alt="Daniela Metz"
-                                    />
-                                </a>
-                            </div>
-
-                            <div class="ml-3">
-                                <p class="text-sm font-medium text-gray-900">
-                                    <a href="javascript://" class="hover:underline"> Daniela Metz </a>
-                                </p>
-                                <div class="flex space-x-1 text-sm text-gray-500">
-                                    <time datetime="2020-02-12"> Feb 12, 2020 </time>
-                                    <span aria-hidden="true"> &middot; </span>
-                                    <span> 11 min read </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </main>
@@ -184,6 +94,32 @@ export default {
         this.discussions = []
 
         this.discussions.push({
+            id: 'ab1a21ad-a6b1-4637-b5da-6c69df89eedc',
+            category: 'Read.cash',
+            avatar: 'https://i.ibb.co/bFS7Zw0/avatar-595e1cdc9e1096aecc28e793cdd15a72.webp',
+            banner: 'https://i.ibb.co/9nYCx6F/smartbch.png',
+            title: `The Bailout Plan for smartBCH’s centralized bridge run by CoinFLEX`,
+            summary: `Dear smartBCH users: As you have already known, the smartBCH community is in an urgent situation. The centralized bridge maintained by CoinFLEX is stuck now. And the native token on smartBCH, which will be referred to as "sBCH", is not 1:1 anchored to BCH on the main chain.`,
+            author: `SmartBCH`,
+            url: 'https://read.cash/@SmartBCH/the-bailout-plan-for-smartbchs-centralized-bridge-run-by-coinflex-a560d5dc',
+            publishedAt: 'July 1, 2022',
+            readTime: '11 min',
+        })
+
+        this.discussions.push({
+            id: 'fd5ccb7b-368a-4f2a-a02e-8b173e098244',
+            category: 'Blog',
+            avatar: 'https://i.ibb.co/8Y0JjCH/joystick.jpg',
+            banner: 'https://i.ibb.co/CwRYFrj/joystick-banner.jpg',
+            title: `Joystick.club expanding to multi-chain`,
+            summary: `We are actively monitoring the situation with regards to Coinflex disabling their users withdrawals and the main bridge to and from Smart Bitcoin Cash.`,
+            author: `Joystick.club`,
+            url: 'https://blog.joystick.club/p/joystickclub-expanding-to-multi-chain?s=09',
+            publishedAt: 'June 29, 2022',
+            readTime: '5 min',
+        })
+
+        this.discussions.push({
             id: 'f959d004-2ca4-42a8-9740-ce4615cac3d6',
             category: 'Blog',
             avatar: 'https://i.ibb.co/GQfy8p5/coinflex-logo.jpg',
@@ -193,7 +129,7 @@ export default {
             author: `CoinFLEX`,
             url: 'https://coinflex.com/blog/coinflex-update-june-30-2022/',
             publishedAt: 'June 30, 2022',
-            readTime: '1 min',
+            readTime: '2 min',
         })
     },
     mounted: function () {

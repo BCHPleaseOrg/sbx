@@ -37,7 +37,7 @@ At the heart of SBX are a suite of smart contracts:
 - SHA_Matrix_Treasury.sol (Solidity)
 - SHA_Matrix_Gov.sol (Solidity)
 - SBX.sol (Solidity)
-- cfBCH.sol (Solidity)
+- rvBCH.sol (Solidity)
 - Bailout.sol (Solidity)
 
 ### SHA-Matrix Exchange (BCH)
@@ -60,7 +60,7 @@ A DAO contract to manage proposals and token voting.
 
 The governance token for the exchange.
 
-### $cfBCH
+### $rvBCH
 
 These are the "social debt" NFTs minted to represent the "locked" funds in the amount of 101,000 $BCH.
 
@@ -144,7 +144,7 @@ SBX is an open protocol that is available to be used by anyone without permissio
 
 The exchange earns 0.1% on every transaction. This fee will be deposited into the SBX Treasury.
 
-PLEASE NOTE: During the "Bailout Phase", 100% of the exchange fees will be deposited into the Bailout treasury for distribution to $cfBCH token holders.
+PLEASE NOTE: During the "Bailout Phase", 100% of the exchange fees will be deposited into the Bailout treasury for distribution to $rvBCH token holders.
 
 ## Free and Open Source Software (FOSS)
 

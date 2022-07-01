@@ -1,3 +1,5 @@
+-
+
 # The Problem
 
 The current treasury of SmartBCH is controlled by a centralized, "for-profit" entity that was assigned to the task as a "temporary" solution which permitted the initial launch of the sidechain.
@@ -16,7 +18,10 @@ A NEW SBX Server run by a decentralized pool of "financially invested" individua
 
 We appreciate your support in bootstrapping this exchange and helping to receover the SmartBCH network.
 
-### The TOP 3 contibutors will receive a split 15% of the new $SBX governance token. You MUST include your address (or other contact) to qualify.
+### In the event of a successful campaign, the TOP 3 contributors will each be awarded a 3% share of the 21M $SBX token distribution.
+
+__!! IMPORTANT !!__  
+__You MUST include your SmartBCH address (or other contact) to qualify.__
 
 > NOTE: The remaining tokens are currently unassigned.
 
@@ -63,7 +68,7 @@ A suite of smart contracts will be deployed to manage the SBX.
 - ↳ SHA_Matrix_Treasury.sol (Solidity)
 - ↳ SHA_Matrix_Gov.sol (Solidity)
 - ↳ [SBX.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/SBX.sol) (Solidity)
-- ↳ cfBCH.sol (Solidity)
+- ↳ rvBCH.sol (Solidity)
 - ↳ Bailout.sol (Solidity)
 
 ### API Deployment - 15 BCH
@@ -104,3 +109,5 @@ With more projects in the works to support BUIDLers, such as:
 Email support [at] bchplease [dot] org
 
 Join our open Slack community
+
+https://join.slack.com/t/bchplease/shared_invite/zt-e7jj03j5-vJbe47kNrPBjTgTXwLNRkA

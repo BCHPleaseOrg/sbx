@@ -47,7 +47,7 @@
             </div>
 
             <div class="mt-8 md:mt-0 md:order-1">
-                <p class="text-center sm:text-left text-base text-gray-400">
+                <p class="text-center sm:text-left text-sm sm:text-base text-gray-400">
                     <span class="block">Copyright &copy; {{curYear}} Smart Bitcoin Exchange DAO. </span>
                     <span class="block">All rights reserved.</span>
                 </p>
