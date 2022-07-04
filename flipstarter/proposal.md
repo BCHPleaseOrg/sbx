@@ -1,5 +1,7 @@
 -
 
+![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
+
 # The Problem
 
 The current treasury of SmartBCH is controlled by a centralized, "for-profit" entity that was assigned to the task as a "temporary" solution which permitted the initial launch of the sidechain.
@@ -10,7 +12,13 @@ A NEW SBX Server run by a decentralized pool of "financially invested" individua
 
 > __Good to know:__ SBX is an emergency decentralized solution to solving a SmartBCH treasury risk imposed by the "temporary" custodian that was assigned responsibility at the launch of the sidechain.
 
-![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
+### SBX featured resource links:
+
+__↳ https://docs.sbx.cash__ _(documentation)_
+
+__↳ https://canvas.sbx.cash__ _(lean canvas)_
+
+__↳ https://plan.sbx.cash__ _(business plan)_
 
 # Campaign Goals
 
@@ -73,18 +81,18 @@ The NEW Smart Bitcoin Exchange (SBX) Server will be a multi-platform application
 
 A suite of smart contracts will be deployed to manage the SBX.
 
-- ↳ SHA_Matrix_Exchange.cash (CashScript)
-- ↳ SHA_Matrix_Exchange.sol (Solidity)
-- ↳ SHA_Matrix_Treasury.sol (Solidity)
-- ↳ SHA_Matrix_Gov.sol (Solidity)
-- ↳ [SBX.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/SBX.sol) (Solidity)
-- ↳ Bailout.sol (Solidity)
+- ↳ [SHA_Matrix_Exchange.cash](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/CashScript/SHA_Matrix_Exchange.cash) (CashScript)
+- ↳ [SHA_Matrix_Exchange.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Exchange.sol) (Solidity)
+- ↳ [SHA_Matrix_Treasury.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Treasury.sol) (Solidity)
+- ↳ [SHA_Matrix_Gov.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Gov.sol) (Solidity)
+- ↳ [SBX.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SBX.sol) (Solidity)
+- ↳ [Bailout.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/Bailout.sol) (Solidity)
 
 ### API Deployment - 15 BCH
 
 > Approx. 20 hours @ $85/hr
 
-### https://api.sbx.cash
+### ↳ https://api.sbx.cash
 
 Our team will design, build and deploy an open Application Protocol Interface (API) to provide the MOST flexible integration options with the MOST popular software protocols:
 
@@ -148,3 +156,5 @@ Email support [at] bchplease [dot] org
 Join our open Slack community
 
 https://join.slack.com/t/bchplease/shared_invite/zt-e7jj03j5-vJbe47kNrPBjTgTXwLNRkA
+
+-

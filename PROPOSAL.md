@@ -1,6 +1,6 @@
 # Smart Bitcoin Exchange
 
-### https://sbx.cash
+### ↳ https://sbx.cash
 
 ![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
 
