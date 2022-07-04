@@ -1,8 +1,8 @@
 {
   "name": "sbx-server",
-  "version": "22.6.29",
+  "version": "22.7.4",
   "license": "MIT",
-  "description": "SmartBCH peer-to-peer network manager, supporting: SHA Matrix, Treasury and more.",
+  "description": "SmartBCH peer-to-peer network manager, supporting: SHA-Matrix, Governance, Treasury and more..",
   "main": "./src/main/main.ts",
   "scripts": {
     "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",

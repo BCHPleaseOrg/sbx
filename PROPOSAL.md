@@ -1,18 +1,34 @@
-# Smart Bitcoin Exchange
+# PROPOSAL: Smart Bitcoin Exchange (SBX) — A "Smart" Bailout Plan
 
 ### ↳ https://sbx.cash
 
-![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
+A distributed Proof-of-Stake (dPOS) network of Smart Bitcoin stakeholders tasked with effectively managing the SmartBCH bridge using a suite of trustless, Free and Open Source Software (FOSS) smart contracts.
 
-> __!! WARNING !! WARNING !! WARNING !!__  
-This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Commands may be renamed or removed in future versions.  
-__!! USE AT YOUR OWN RISK !!__
+## A "Smart" Bailout Plan
+
+### ↳ https://docs.sbx.cash/bailout
+
+This is an emergency proposal to mint a __NEW $SBX token__ to fully "socialize" the outstanding debt of the __~101K $BCH (valued at ~$10M)__ currently "locked" and made unavailable by the former SmartBCH treasury custodian.
+
+__$SBX (Bailout) holders will receive a share of ALL exchange fees, paid out daily, until the (Bailout) contract expires.__
+
+## SBX Featured Resource Links
+
+__↳ https://docs.sbx.cash__ _(documentation)_
+
+__↳ https://canvas.sbx.cash__ _(lean canvas)_
+
+__↳ https://plan.sbx.cash__ _(business plan)_
+
+__↳ https://gitlab.com/bchplease/sbx__ _(open-source code)_
+
+---
 
 # Introduction
 
 __THE PROBLEM__
 
-Since its inception, the trust & security of the SmartBCH network has layed in the hands of a single, for-profit company. Not only does that violate the very fabric of a decentralized network, it diminishes the confidence of the Builders who will need to investment their time, money and talent into this nascent network during its incubation.
+Since its inception, the trust & security of the SmartBCH network has laid in the hands of a single, for-profit company. Not only does that violate the very fabric of a decentralized network, it diminishes the confidence of the Builders who will need to investment their time, money and talent into this nascent network during its incubation.
 
 > There are currently ~100K BCH being held by the current custodian of the SmartBCH treasury. In simple terms, $10MM would be the "bail-out" value to restore the SmartBCH network back to whole.
 
@@ -22,16 +38,22 @@ The SmartBCH developers have brilliantly (pun intended) built-in a trustless Pro
 
 > Our aim is to create a large network of "trusted" Validators that can scale to at least 100 participating nodes communicating over a low-latency private communications network.
 
-This proposal aims to accomplish ALL of the following:
+__This proposal aims to accomplish ALL of the following:__
 
 1. Organize a working group of developers to build a Smart Bitcoin Exchange (SBX).
 2. Coordinate with active Validators to safely deploy the new SBX Server.
-3. Coordinate with the current SBCH Treasury custodian to safely transfer the "escrowed" BCH into the SBX.
-4. Work with current DEXs to integrate with the new network for BCH <=> SBCH asset exchanges.
+3. Coordinate with the current SBCH Treasury custodian to safely transfer the "escrowed" $BCH into the SBX.
+4. Work with current DEXs to integrate with the new network for $BCH <=> $SBCH asset exchanges.
 
 > NOTE: SBX will charge a 0.1% base fee for each transaction to incentivize participation in the network.
 
+![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
+
 ## Smart Bitcoin Exchange (SBX)
+
+> __!! WARNING !! WARNING !! WARNING !!__  
+This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Commands may be renamed or removed in future versions.  
+__!! USE AT YOUR OWN RISK !!__
 
 SmartBCH currently utilizes a network of Validators to vote on each block in the network. As this network of Validators currently holds 50% of the voting power (the other 50% is held by miners), they are the MOST incentivized and technically capable group to engage in this scheme.
 
@@ -63,13 +85,7 @@ A DAO contract to manage proposals and token voting.
 
 The governance token for the exchange.
 
-### $rsBCH
-
-These are the "social debt" NFTs minted to represent the "locked" funds in the amount of 101,000 $BCH.
-
-These tokens will be instantly redeemable for an equivalent amount of BCH from the SHA-Matrix.
-
-### Bailout
+### A "Smart" Bailout Plan
 
 This is a Solidity contract that manages the Treasury for the bailout funds. Including both the funds recovered from currently "locked" $BCH, plus the revenue generated from fees paid to the exchange.
 
@@ -147,13 +163,13 @@ SBX is an open protocol that is available to be used by anyone without permissio
 
 The exchange earns 0.1% on every transaction. This fee will be deposited into the SBX Treasury.
 
-PLEASE NOTE: During the "Bailout Phase", 100% of the exchange fees will be deposited into the Bailout treasury for distribution to $rsBCH token holders.
+PLEASE NOTE: During the "Bailout Phase", 100% of the exchange fees will be deposited into the Bailout treasury for distribution to "qualifying" $SBX token holders.
 
 ## Free and Open Source Software (FOSS)
 
 In the spirit of full transparency, it's critical that the source code protecting the network be available to anyone and everyone who partipates in the network.
 
-# Part IV: The Bailout
+# Part IV: A "Smart" Bailout Plan
 
 As of Sunday, July 3rd 2022, the condition of the "locked" $BCH funds securing the SmartBCH sidechain are in question. We propose to create a new "socialized" token to absorb the current debt incurred.
 
@@ -172,8 +188,6 @@ A snapshot will be taken of each and every $SBX holder and automatically registe
 Each and every $SBX holder will have an opportunity to register in the Bailout.sol contract.
 
 The remaining (10,861,770) $SBX will be deposited into a Token Mining contract that will be managed by the Validators.
-
-_(the token name is NOT final)_
 
 The NFT collection will initially be reserved using the SBX website. $BCH received from the sale will be deposited directly into the SBX Treasury and returned (by participating XHedge Validators) in the event that the campaign is canceled or unsuccessful.
 
