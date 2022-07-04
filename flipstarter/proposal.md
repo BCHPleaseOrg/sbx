@@ -41,10 +41,14 @@ The SHA-Matrix will be a far simpler solution, using more "conventional" methods
 
 We propose to organize a team of capable individuals to oversea the initial development and design of the NEW Smart Bitcoin Exchange (SBX).
 
-Our goals are to:
+### This proposal aims to accomplish ALL of the following:
 
-1. Organize a team.
-2. Build a server.
+1. Organize a working group of developers to build a Smart Bitcoin Exchange (SBX).
+2. Coordinate with active Validators to safely deploy the new SBX Server.
+3. Coordinate with the current SBCH Treasury custodian to safely transfer the "escrowed" BCH into the SBX.
+4. Work with current DEXs to integrate with the new network for BCH <=> SBCH asset exchanges.
+
+> NOTE: SBX will charge a 0.1% base fee for each transaction to incentivize participation in the network.
 
 # Campaign Budget
 
@@ -59,13 +63,13 @@ All features and services will undergo a strict procedure from start to finish:
 
 ### SBX Server Development - 30 BCH
 
-> Approx. 30 hours @ $100/hr
+> Approx. 35 hours @ $85/hr
 
 The NEW Smart Bitcoin Exchange (SBX) Server will be a multi-platform application for managing the respsiblities of the Validators overseeing the exchange.
 
 ### SHA-Matrix Contract Development - 40 BCH
 
-> Approx. 40 hours @ $100/hr
+> Approx. 50 hours @ $85/hr
 
 A suite of smart contracts will be deployed to manage the SBX.
 
@@ -74,24 +78,29 @@ A suite of smart contracts will be deployed to manage the SBX.
 - ↳ SHA_Matrix_Treasury.sol (Solidity)
 - ↳ SHA_Matrix_Gov.sol (Solidity)
 - ↳ [SBX.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/SBX.sol) (Solidity)
-- ↳ rvBCH.sol (Solidity)
 - ↳ Bailout.sol (Solidity)
 
 ### API Deployment - 15 BCH
 
-> Approx. 15 hours @ $100/hr
+> Approx. 20 hours @ $85/hr
 
-__https://api.sbx.cash__
+### https://api.sbx.cash
 
-An open Application Protocol Interface (API) will allow more flexible integration with the SBX.
+Our team will design, build and deploy an open Application Protocol Interface (API) to provide the MOST flexible integration options with the MOST popular software protocols:
 
-A new REST-based will be deployed to provide RPC services.
+- Java
+- Android
+- iOS
+- JavaScript
+- PHP
+- Python
+- and more...
 
-VPS services will be provided for at least 90-days, until a long-term funding solution can be determined.
+> NOTE: The MVP's campaign budget will supply least 90-days of VPS services. We aim to secure a long-term funding solution in the future.
 
-### Customization - 10 BCH
+### Platform Integration(s) - 10 BCH
 
-> Approx. 10 hours @ $100/hr
+> Approx. 10 hours @ $85/hr
 
 Our team will work directly with the individual participants of the exchange to integrate with their respective services. Software will be modified and/or extended to best meet the needs of the SmartBCH services.
 
@@ -100,6 +109,22 @@ Our team will work directly with the individual participants of the exchange to 
 > Approx. 25 hours @ $20/hr
 
 A dedicated site for documentation will be created to support all parties involved in the SBX.
+
+# Production Budget
+
+In an effort to quickly develop a "working" solution to not only the treasury situation, but a roadmap to a decentralized bridge, our team will implore a Rapid Development process of the next few weeks.
+
+> PLEASE NOTE: This campaign is NOT to develop a full "production-ready" SmartBCH exchange.
+
+Our aim to quickly design, build and deploy an MVP to (Testnet3 & Amber); and present to the community what should be a viable model for a "production-ready", fully audited exchange.
+
+### Upon successful completion of the MVP, additional funding requirements may include some or all of the following:
+
+1. Application code audits
+2. Solidity security audits
+3. Infrastructure upgrades
+4. Bug bounty program
+5. Additional research & development
 
 # About Me
 

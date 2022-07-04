@@ -6,7 +6,7 @@ __Smart Bitcoin Exchange (SBX)__ is a distributed Proof-of-Stake (dPOS) network 
 
 ### A "Smart" Bailout
 
-__https://docs.sbx.cash/bailout__
+### https://docs.sbx.cash/bailout
 
 __tl;dr:__ A proposal to mint a new token to "socialize" the outstanding debt of the ~101K BCH currently "locked" and made unavailable by the chain's former treasury custodian.
 

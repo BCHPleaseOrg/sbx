@@ -7,12 +7,12 @@ pragma solidity ^0.8.0;
  * Copyright (c) 2022 Smart Bitcoin Exchange
  * Released under the MIT License.
  *
- * SBX - Smart Bitcoin Exchange token.
+ * SBX - Smart Bitcoin Exchange SEP-20 token.
  *
  * Version 22.7.1
  *
  * https://sbx.cash
- * https://docs.sbx.cash
+ * support@sbx.cash
  */
 
 
@@ -88,7 +88,7 @@ contract Owned {
 
 /*******************************************************************************
  *
- * @notice Pay It Forward Token
+ * @notice Smart Bitcoin Exchange Token
  *
  * @dev This is a standard ERC20 token contract with a few additional public
 *       descriptors:
@@ -96,17 +96,13 @@ contract Owned {
  *          - symbol
  *          - title
  */
-contract PIF is ERC20Interface, Owned {
+contract SBX is ERC20Interface, Owned {
     string public symbol;
-
     string public name;
-
     uint8  public decimals;
-
     uint   public _totalSupply;
 
     mapping(address => uint) balances;
-
     mapping(address => mapping(address => uint)) allowed;
 
     /***************************************************************************
@@ -117,7 +113,7 @@ contract PIF is ERC20Interface, Owned {
         symbol          = 'SBX';
         name            = 'Smart Bitcoin Exchange';
         decimals        = 18;
-        _totalSupply    = 0; // initial supply of 0 SBX
+        _totalSupply    = 21 * 2**18; // initial supply of 21M SBX
         balances[owner] = _totalSupply;
 
         emit Transfer(address(0), owner, _totalSupply);

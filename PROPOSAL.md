@@ -2,9 +2,11 @@
 
 ### https://sbx.cash
 
-Author(s): Shomari (nyusternie)
-
 ![Smart Bitcoin Exchange Banner](https://sbx.cash/banner.jpg?1656705866)
+
+> __!! WARNING !! WARNING !! WARNING !!__  
+This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Commands may be renamed or removed in future versions.  
+__!! USE AT YOUR OWN RISK !!__
 
 # Introduction
 
@@ -39,7 +41,6 @@ At the heart of SBX are a suite of smart contracts:
 - SHA_Matrix_Treasury.sol (Solidity)
 - SHA_Matrix_Gov.sol (Solidity)
 - SBX.sol (Solidity)
-- rvBCH.sol (Solidity)
 - Bailout.sol (Solidity)
 
 ### SHA-Matrix Exchange (BCH)
@@ -62,7 +63,7 @@ A DAO contract to manage proposals and token voting.
 
 The governance token for the exchange.
 
-### $rvBCH
+### $rsBCH
 
 These are the "social debt" NFTs minted to represent the "locked" funds in the amount of 101,000 $BCH.
 
@@ -146,7 +147,7 @@ SBX is an open protocol that is available to be used by anyone without permissio
 
 The exchange earns 0.1% on every transaction. This fee will be deposited into the SBX Treasury.
 
-PLEASE NOTE: During the "Bailout Phase", 100% of the exchange fees will be deposited into the Bailout treasury for distribution to $rvBCH token holders.
+PLEASE NOTE: During the "Bailout Phase", 100% of the exchange fees will be deposited into the Bailout treasury for distribution to $rsBCH token holders.
 
 ## Free and Open Source Software (FOSS)
 
@@ -154,13 +155,23 @@ In the spirit of full transparency, it's critical that the source code protectin
 
 # Part IV: The Bailout
 
-As of Friday, July 1st 2022, the condition of the "locked" $BCH funds securing the SmartBCH sidechain are in question. We propose to create a new "socialized" token to absorb the current debt incurred.
+As of Sunday, July 3rd 2022, the condition of the "locked" $BCH funds securing the SmartBCH sidechain are in question. We propose to create a new "socialized" token to absorb the current debt incurred.
 
 - [bitcoincash:qptplw8rl7r7nzmze8mnhrdc3guny3p2ng8vz443qu](https://blockchair.com/bitcoin-cash/address/qptplw8rl7r7nzmze8mnhrdc3guny3p2ng8vz443qu)
 - 101,382.30027849 $BCH
 - Valued at US$10,269,013.20
 
-101,382 $rvBCH (Recovery Value) NFTs will be minted.
+21,000,000 $SBX tokens will be minted.
+
+The first 10,138,230 $SBX will be valued at 0.01 $BCH each and traded via the SBX.cash website for $BCH to replenish the treasury.
+
+A snapshot will be taken of each and every $SBX holder and automatically registered to the Bailout contract. In the fortunate event that the "locked" coins are recovered from the "original custodian", the full balance will be available for withdrawl from the Bailout contract.
+
+> NOTE: At anytime, registered account holders can be re-assigned. Withdrawals can ONLY be delivered to accounts that are registered to the Bailout contract.
+
+Each and every $SBX holder will have an opportunity to register in the Bailout.sol contract.
+
+The remaining (10,861,770) $SBX will be deposited into a Token Mining contract that will be managed by the Validators.
 
 _(the token name is NOT final)_
 
