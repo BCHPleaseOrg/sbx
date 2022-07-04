@@ -8,7 +8,9 @@ const Hello = () => {
       <div className="Hello">
         <img width="200px" alt="icon" src={icon} />
       </div>
-      <h1>SBX Server</h1>
+      <h1 className="text-5xl text-pink-300 font-bold">
+        SBX Server v0.1.0
+    </h1>
       <div className="Hello">
         <a
           href="https://electron-react-boilerplate.js.org/"
