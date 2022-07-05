@@ -118,7 +118,7 @@ const Dashboard = () => {
                     </p>
                 </div>
 
-                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100">
+                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
                         # (Active) XHedge Validators
                     </h3>
@@ -128,7 +128,7 @@ const Dashboard = () => {
                     </h3>
                 </div>
 
-                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100">
+                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
                         # Messages
                     </h3>
