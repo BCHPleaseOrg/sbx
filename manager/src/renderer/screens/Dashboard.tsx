@@ -120,21 +120,37 @@ const Dashboard = () => {
 
                 <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
-                        # (Active) XHedge Validators
+                        XHedge Validators
+                    </h3>
+
+                    <div className="flex flex-row items-center">
+                        <h3 className="text-gray-700 text-lg font-bold">
+                            36
+                        </h3>
+
+                        <h3 className="ml-1 mt-1 text-gray-500 text-xs font-bold">
+                            (55)
+                        </h3>
+                    </div>
+                </div>
+
+                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                    <h3 className="text-gray-500 font-bold">
+                        Messages
                     </h3>
 
                     <h3 className="text-gray-700 text-lg font-bold">
-                        36
+                        1 (10)
                     </h3>
                 </div>
 
                 <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
-                        # Messages
+                        Voting Proposals
                     </h3>
 
                     <h3 className="text-gray-700 text-lg font-bold">
-                        1
+                        0 (3)
                     </h3>
                 </div>
             </section>
