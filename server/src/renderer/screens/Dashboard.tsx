@@ -24,11 +24,17 @@ const Dashboard = () => {
         <main>
             <Header />
 
-            <h1 className="mt-10 text-5xl text-pink-300 font-bold">
-                THIS IS A DASHBOARD
+            <h1 className="mt-3 text-center text-sm text-gray-700 font-bold uppercase">
+                Transaction Volume
             </h1>
 
             <VictoryChart
+                className="mt-0"
+                style={{
+                  data: { fill: "tomato", opacity: 0.7 },
+                  labels: { fontSize: 12 },
+                  parent: { border: "1px solid #ccc", marginTop: -30, height: 200 }
+                }}
                 domainPadding={20}
             >
                 <VictoryAxis
@@ -53,6 +59,12 @@ const Dashboard = () => {
                 />
 
                 <VictoryBar
+                    style={{
+                      data: { fill: "tomato", opacity: 0.7 },
+                      labels: { fontSize: 12 },
+                      parent: { border: "1px solid #ccc", padding: 0, margin: 0, height: "50px" }
+                    }}
+
                     data={data}
                     // data accessor for x values
                     x="month"
