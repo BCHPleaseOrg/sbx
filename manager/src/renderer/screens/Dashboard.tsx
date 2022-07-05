@@ -33,7 +33,7 @@ const Dashboard = () => {
                 style={{
                   data: { fill: "tomato", opacity: 0.7 },
                   labels: { fontSize: 12 },
-                  parent: { border: "1px solid #ccc", marginTop: -30, height: 200 }
+                  parent: { marginTop: -30, height: 200 }
                 }}
                 domainPadding={20}
             >
@@ -75,16 +75,16 @@ const Dashboard = () => {
 
             <section className="flex flex-row gap-2 justify-around">
 
-                <Link to="/stats" className="flex flex-col items-end group">
-                    <button type="button">
+                <Link to="/stats" className="px-5 py-1 flex flex-col items-end group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                    <span className="text-lg text-gray-800 font-bold uppercase">
                         Stats
-                    </button>
+                    </span>
                 </Link>
 
-                <Link to="/settings" className="flex flex-col items-end group">
-                    <button type="button">
+                <Link to="/settings" className="px-5 py-1 flex flex-col items-end group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                    <span className="text-lg text-gray-800 font-bold uppercase">
                         Settings
-                    </button>
+                    </span>
                 </Link>
 
             </section>
@@ -99,11 +99,11 @@ const Dashboard = () => {
 
                     <div className="flex flex-row items-center">
                         <h3 className="text-gray-700 text-lg font-bold">
-                            36
+                            22
                         </h3>
 
                         <h3 className="ml-1 mt-1 text-gray-500 text-xs font-bold">
-                            (55)
+                            (32)
                         </h3>
                     </div>
                 </div>
