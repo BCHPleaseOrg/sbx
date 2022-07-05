@@ -4,6 +4,8 @@ import {
     Route
 } from 'react-router-dom'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import icon from '../../assets/icon.svg'
 
 import './App.css'
@@ -27,7 +29,7 @@ export default function App() {
                 </h3>
 
                 <div className="text-gray-500 text-xs">
-                    [ fa icon here ]
+                    <FontAwesomeIcon className="text-green-300 text-sm transform -rotate-45" icon={["fab", "bitcoin"]} />
                 </div>
             </footer>
         </main>
