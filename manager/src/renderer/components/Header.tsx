@@ -18,7 +18,7 @@ const Header = () => {
                     </h1>
 
                     <h1 className="ml-1 text-2xl text-purple-700 tracking-tighter font-bold uppercase">
-                        Server
+                        Manager
                     </h1>
                 </div>
 
