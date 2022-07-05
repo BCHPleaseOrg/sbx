@@ -73,7 +73,7 @@ const Dashboard = () => {
                 />
             </VictoryChart>
 
-            <div className="">
+            <section className="">
                 <a
                     href="https://electron-react-boilerplate.js.org/"
                     target="_blank"
@@ -107,7 +107,38 @@ const Dashboard = () => {
                         Settings
                     </span>
                 </Link>
-            </div>
+            </section>
+
+            <div className="my-2 mx-2 border-t border-gray-500" />
+
+            <section>
+                <div>
+                    <p>
+                        What should we put here??
+                    </p>
+                </div>
+
+                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100">
+                    <h3 className="text-gray-500 font-bold">
+                        # (Active) XHedge Validators
+                    </h3>
+
+                    <h3 className="text-gray-700 text-lg font-bold">
+                        36
+                    </h3>
+                </div>
+
+                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100">
+                    <h3 className="text-gray-500 font-bold">
+                        # Messages
+                    </h3>
+
+                    <h3 className="text-gray-700 text-lg font-bold">
+                        1
+                    </h3>
+                </div>
+            </section>
+
         </main>
     )
 }
