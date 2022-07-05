@@ -12,6 +12,7 @@ import './App.css'
 
 import Dashboard from './screens/Dashboard'
 import Settings from './screens/Settings'
+import Stats from './screens/Stats'
 
 export default function App() {
     return (
@@ -20,6 +21,7 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
                     <Route path="/settings" element={<Settings />} />
+                    <Route path="/stats" element={<Stats />} />
                 </Routes>
             </Router>
 

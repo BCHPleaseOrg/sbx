@@ -73,52 +73,26 @@ const Dashboard = () => {
                 />
             </VictoryChart>
 
-            <section className="">
-                <a
-                    href="https://electron-react-boilerplate.js.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <button type="button">
-                    <span role="img" aria-label="books">
-                    📚
-                    </span>
-                    Read our docs
-                    </button>
-                </a>
+            <section className="flex flex-row gap-2 justify-around">
 
-                <a
-                    href="https://github.com/sponsors/electron-react-boilerplate"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                <Link to="/stats" className="flex flex-col items-end group">
                     <button type="button">
-                    <span role="img" aria-label="books">
-                    🙏
-                    </span>
-                    Donate
+                        Stats
                     </button>
-                </a>
+                </Link>
 
                 <Link to="/settings" className="flex flex-col items-end group">
-                    <i className="fa-solid fa-computer text-gray-500 text-xl group-hover:text-pink-500"></i>
-
-                    <span className="block text-gray-500 font-bold text-xs text-right group-hover:text-pink-500">
+                    <button type="button">
                         Settings
-                    </span>
+                    </button>
                 </Link>
+
             </section>
 
             <div className="my-2 mx-2 border-t border-gray-500" />
 
             <section>
-                <div>
-                    <p>
-                        What should we put here??
-                    </p>
-                </div>
-
-                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                <div className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
                         XHedge Validators
                     </h3>
@@ -134,7 +108,7 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                <div className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
                         Messages
                     </h3>
@@ -144,7 +118,7 @@ const Dashboard = () => {
                     </h3>
                 </div>
 
-                <div className="mt-5 w-96 mx-auto p-3 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                <div className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
                     <h3 className="text-gray-500 font-bold">
                         Voting Proposals
                     </h3>
