@@ -1,53 +1,22 @@
-import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import icon from '../../assets/icon.svg';
-import './App.css';
+import {
+    MemoryRouter as Router,
+    Routes,
+    Route
+} from 'react-router-dom'
 
-const Hello = () => {
-  return (
-    <div>
-      <div className="Hello">
-        <img width="200px" alt="icon" src={icon} />
-      </div>
-      <h1 className="text-5xl text-pink-300 font-bold">
-        SBX Server v0.1.0
-    </h1>
-      <div className="Hello">
-        <a
-          href="https://electron-react-boilerplate.js.org/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button type="button">
-            <span role="img" aria-label="books">
-              📚
-            </span>
-            Read our docs
-          </button>
-        </a>
-        <a
-          href="https://github.com/sponsors/electron-react-boilerplate"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button type="button">
-            <span role="img" aria-label="books">
-              🙏
-            </span>
-            Donate
-          </button>
-        </a>
-      </div>
-    </div>
-  );
-};
+import icon from '../../assets/icon.svg'
+
+import './App.css'
 
 import Dashboard from './screens/Dashboard'
+import Settings from './screens/Settings'
 
 export default function App() {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<Dashboard />} />
+                <Route path="/settings" element={<Settings />} />
             </Routes>
         </Router>
     )

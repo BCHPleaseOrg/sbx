@@ -1,35 +1,67 @@
-import { VictoryBar } from 'victory'
+import { Link } from 'react-router-dom'
+
+import {
+    VictoryAxis,
+    VictoryBar,
+    VictoryChart,
+} from 'victory'
+
+import Header from '../components/Header'
 
 import icon from '../../../assets/logo.png'
 
 const data = [
-  {quarter: 1, earnings: 13000},
-  {quarter: 2, earnings: 16500},
-  {quarter: 3, earnings: 14250},
-  {quarter: 4, earnings: 19000}
-];
+    { month: 2, earnings: 13000 },
+    { month: 3, earnings: 16500 },
+    { month: 4, earnings: 14250 },
+    { month: 5, earnings: 19000 },
+    { month: 6, earnings: 18000 },
+    { month: 7, earnings: 29000 },
+]
 
 const Dashboard = () => {
     return (
         <main>
-            <header className="flex items-center py-2 bg-gradient-to-r from-indigo-100 to-indigo-300 border-b-2 border-indigo-500 shadow-md justify-between">
-                <img className="w-8 mx-3" alt="icon" src={icon} />
+            <Header />
 
-                <h1 className="mx-3 text-2xl font-bold text-right">
-                    Smart Bitcoin Exchange Server
-                </h1>
-            </header>
-
-            <div className="Hello">
-            </div>
-
-            <h1 className="text-5xl text-pink-300 font-bold">
+            <h1 className="mt-10 text-5xl text-pink-300 font-bold">
                 THIS IS A DASHBOARD
             </h1>
 
-            <VictoryBar />
+            <VictoryChart
+                domainPadding={20}
+            >
+                <VictoryAxis
+                    // tickValues specifies both the number of ticks and where
+                    // they are placed on the axis
+                    tickValues={[2, 3, 4, 5, 6, 7]}
 
-            <div className="Hello">
+                    tickFormat={[
+                        'Feb',
+                        'Mar',
+                        'Apr',
+                        'May',
+                        'Jun',
+                        'Jul'
+                    ]}
+                />
+
+                <VictoryAxis
+                    dependentAxis
+                    // tickFormat specifies how ticks should be displayed
+                    tickFormat={(x) => (`$${x / 1000}k`)}
+                />
+
+                <VictoryBar
+                    data={data}
+                    // data accessor for x values
+                    x="month"
+                    // data accessor for y values
+                    y="earnings"
+                />
+            </VictoryChart>
+
+            <div className="">
                 <a
                     href="https://electron-react-boilerplate.js.org/"
                     target="_blank"
@@ -55,6 +87,14 @@ const Dashboard = () => {
                     Donate
                     </button>
                 </a>
+
+                <Link to="/settings" className="flex flex-col items-end group">
+                    <i className="fa-solid fa-computer text-gray-500 text-xl group-hover:text-pink-500"></i>
+
+                    <span className="block text-gray-500 font-bold text-xs text-right group-hover:text-pink-500">
+                        Settings
+                    </span>
+                </Link>
             </div>
         </main>
     )
