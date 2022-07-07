@@ -41,7 +41,7 @@ Bug reports and feedback on future directions are appreciated and encouraged!
 
 That said, we have LOTS planned and many new features are on the way.
 
-![SBX Logo](https://sbx.cash/logo.png)
+![SBX Logo](https://sbx.cash/logo-256.png)
 
 # Introduction
 
