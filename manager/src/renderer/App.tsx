@@ -11,8 +11,9 @@ import icon from '../../assets/icon.svg'
 import './App.css'
 
 import Dashboard from './screens/Dashboard'
+import Federation from './screens/Federation'
+import Nodes from './screens/Nodes'
 import Settings from './screens/Settings'
-import Stats from './screens/Stats'
 
 export default function App() {
     return (
@@ -20,8 +21,9 @@ export default function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
+                    <Route path="/federation" element={<Federation />} />
+                    <Route path="/nodes" element={<Nodes />} />
                     <Route path="/settings" element={<Settings />} />
-                    <Route path="/stats" element={<Stats />} />
                 </Routes>
             </Router>
 

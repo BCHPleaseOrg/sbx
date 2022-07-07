@@ -73,15 +73,21 @@ const Dashboard = () => {
                 />
             </VictoryChart>
 
-            <section className="flex flex-row gap-2 justify-around">
+            <section className="flex flex-row px-3 justify-around">
 
-                <Link to="/stats" className="px-5 py-1 flex flex-col items-end group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                <Link to="/nodes" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
                     <span className="text-lg text-gray-800 font-bold uppercase">
-                        Stats
+                        Nodes
                     </span>
                 </Link>
 
-                <Link to="/settings" className="px-5 py-1 flex flex-col items-end group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                <Link to="/federation" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                    <span className="text-lg text-gray-800 font-bold uppercase">
+                        The Fed
+                    </span>
+                </Link>
+
+                <Link to="/settings" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
                     <span className="text-lg text-gray-800 font-bold uppercase">
                         Settings
                     </span>

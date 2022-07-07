@@ -24,8 +24,8 @@ const Dashboard = () => {
         <main>
             <Header />
 
-            <h1 className="mt-3 text-center text-sm text-gray-700 font-bold uppercase">
-                SmartBCH Network Statistics
+            <h1 className="mt-3 text-center text-base text-gray-500 font-bold uppercase">
+                The Federation
             </h1>
 
             <section className="p-3 flex flex-row gap-2">
