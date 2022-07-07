@@ -150,6 +150,8 @@ OrbitDB will also be used as a low-latency, peer-to-peer channel for specific ta
 
 A new Free and Open Source Software (FOSS) Manager will be developed to be run by the participating Validators.
 
+![Demo Video](https://sbx.cash/demo.gif)
+
 ## Safety & Security
 
 One of the main goals of the SHA-Matrix is to dramatically increase the number of participants involved in the protection of the SmartBCH sidechain.
