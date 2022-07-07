@@ -1,0 +1,11 @@
+{
+  "name": "sbx-db",
+  "version": "22.7.6",
+  "description": "Peer-to-peer database for SBX Validators.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ipfs": "^0.63.5",
+    "orbit-db": "^0.28.6"
+  }
+}
