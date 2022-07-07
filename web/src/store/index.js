@@ -30,9 +30,9 @@ export default createStore({
             return null
         },
 
-        getShuffleCashAbi() {
-            return require('../../../contracts/Solidity/ShuffleCash.json')
-        },
+        // getShuffleCashAbi() {
+        //     return require('../../../contracts/Solidity/ShuffleCash.json')
+        // },
 
         getShuffleCashAddr(_state) {
             /* Validate network. */
