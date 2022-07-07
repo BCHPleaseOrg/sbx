@@ -17,7 +17,7 @@ __↳ https://plan.sbx.cash__ _(business plan)_
 __↳ https://flipstarter.sbx.cash__ _(mvp + bootstrapping campaign)_
 
 > __!! WARNING !! WARNING !! WARNING !!__  
-This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Commands may be renamed or removed in future versions.  
+This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Buttons may be moved or removed in future versions.  
 __!! USE AT YOUR OWN RISK !!__
 
 ## The Problem

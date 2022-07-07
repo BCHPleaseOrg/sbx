@@ -20,6 +20,8 @@ __↳ https://canvas.sbx.cash__ _(lean canvas)_
 
 __↳ https://plan.sbx.cash__ _(business plan)_
 
+__↳ https://gitlab.com/bchplease/sbx__ _(open-source code)_
+
 # Campaign Goals
 
 We propose to organize a team of capable individuals to oversee the initial development and design of the NEW Smart Bitcoin Exchange (SBX).

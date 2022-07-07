@@ -19,10 +19,10 @@ Introducing a __distributed Proof-of-Stake (dPOS)__ network of SmartBCH stakehol
 
 ### ↳ https://docs.sbx.cash/bailout
 
-This is an emergency proposal to mint a __NEW $SBX token__ to fully "socialize" the outstanding debt of the __~101K $BCH (valued at ~$10M)__ currently "locked" and made unavailable by the former SmartBCH treasury custodian.
+This is an emergency proposal to mint a __NEW $SBX token__ to fully "socialize" the outstanding debt of the __~101K $BCH (valued at ~$10M)__ currently "locked" and made unavailable by the "original" SmartBCH Treasury's custodian.
 
 > __$SBX _(Bailout)_ holders will receive a share of ALL exchange fees _(0.1%)_,  
-paid out DAILY, until the _(Bailout)_ contract expires.__
+PAID OUT DAILY, until the _(Bailout)_ contract expires.__
 
 ## SBX Featured Resource Links
 
@@ -32,17 +32,15 @@ __↳ https://canvas.sbx.cash__ _(lean canvas)_
 
 __↳ https://plan.sbx.cash__ _(business plan)_
 
+__↳ https://flipstarter.sbx.cash__ _(mvp + bootstrapping campaign)_
+
 __↳ https://gitlab.com/bchplease/sbx__ _(open-source code)_
 
 # Disclaimer
 
-__This alpha project is very early in its lifecycle.__ It will evolve rapidly over the coming weeks and months. Until we achieve our first mature release, we are not committed to preserving backwards compatibility. Commands may be renamed or removed in future versions.
+__This alpha project is very early in its lifecycle.__ It will evolve rapidly over the coming weeks and months. Until we achieve our first mature release, we are not committed to preserving backwards compatibility. Buttons may be moved or removed in future versions.
 
-> __Please take note! —__ We wanted to get this software in your hands as quickly as possible, so it's releasing before it's "complete".
-
-Bug reports and feedback on future directions are appreciated and encouraged!
-
-That said, we have LOTS planned and many new features are on the way.
+> __Please take note! —__ We wanted to get this software in your hands as quickly as possible, so it's __releasing before it's "complete"__. Bug reports and feedback on future directions are appreciated and encouraged! That said, we have __LOTS__ planned and many new features are on the way.
 
 ![SBX Logo](https://sbx.cash/logo-256.png)
 
@@ -56,11 +54,11 @@ Since its inception, the trust & security of the SmartBCH sidechain has laid in 
 
 __THE SOLUTION__
 
-The SmartBCH developers have brilliantly (pun intended) built-in a trustless Proof-of-Stake network of Validators directly into the protocol. These Validators have the most incentive and technical capability of managing the responsibility of custody for the network's assets; until a permanent solution is ready to be deployed on Mainnet.
+The SmartBCH developers have brilliantly _(pun intended)_ built-in a trustless Proof-of-Stake network of [__XHedge Validators__](https://xhedge.cash/validators) directly into the protocol. These Validators have the most incentive and technical capability of managing the responsibility of custody for the network's assets; until a permanent solution is ready to be deployed on Mainnet.
 
 ---
 
-### The goal of this initiative is to create a Federation of [XHedge Validators](https://xhedge.cash/validators) that can scale to at least 100+ participating nodes connected over a low-latency, decentralized, peer-to-peer communications network.
+### TL;DR — The goal of this initiative is to create a Federation of [XHedge Validators](https://xhedge.cash/validators) _(scalable to at least 100+ participating nodes)_ connected over a low-latency, decentralized, P2P communications network with the responsibility of managing the SmartBCH Cross-chain Asset Bridge.
 
 ---
 
@@ -76,12 +74,12 @@ The SmartBCH developers have brilliantly (pun intended) built-in a trustless Pro
 ## Smart Bitcoin Exchange (SBX)
 
 > __!! WARNING !! WARNING !! WARNING !!__  
-This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Commands may be renamed or removed in future versions.  
+This project is still under active development and __MUST__ be regarded as __ALPHA__ software. It will evolve rapidly over the coming weeks and months. However, until we achieve our first "beta" release, we are not committed to preserving backwards compatibility. Buttons may be moved or removed in future versions.  
 __!! USE AT YOUR OWN RISK !!__
 
-SmartBCH currently utilizes a network of Validators to vote on each block in the network. As this network of Validators currently holds 50% of the voting power (the other 50% is held by miners), they are the MOST incentivized and technically capable group to engage in this scheme.
+SmartBCH currently utilizes a network of Validators to vote on each block in the network. As this network of Validators currently holds 50% of the voting power _(the other 50% is held by miners)_, they are the MOST incentivized and technically capable group to engage in this scheme.
 
-### A suite of smart contracts will be deployed to manage the SBX:
+### A suite of smart contracts will be deployed to manage the Exchange:
 
 ↳ [__SHA_Matrix_Exchange.cash__](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/CashScript/SHA_Matrix_Exchange.cash) _(CashScript)_  
 ↳ [__SHA_Matrix_Exchange.sol__](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Exchange.sol) _(Solidity)_  
@@ -90,7 +88,7 @@ SmartBCH currently utilizes a network of Validators to vote on each block in the
 ↳ [__SBX.sol__](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SBX.sol) _(Solidity)_  
 ↳ [__Bailout.sol__](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/Bailout.sol) _(Solidity)_
 
-> __Did you know? —__ The Bailout contract will be active during the daily ~$10M debt repayments. The contract will automatically expire after the full debt is and/or ALL "escrowed" $BCH are released from the former SmartBCH Treasury custodian and deposited into the SBX Treasury.
+> __Did you know? —__ The Bailout contract will be active during the daily ~$10M debt repayments. The contract will automatically expire after the full debt is repaid and/or ALL "escrowed" $BCH are released from the former SmartBCH Treasury custodian and deposited into the SBX Treasury.
 
 ### SHA-Matrix Exchange ($BCH)
 
@@ -98,11 +96,11 @@ This is a CashScript contract to "lock" the $BCH that has been minted as $SBCH w
 
 ### SHA-Matrix Exchange ($SBCH)
 
-This is a Solidity contract that effectively manages the network of trustees oversee the exchange.
+This is a Solidity contract that effectively manages the network of trustees overseeing the Exchange.
 
 ### SHA-Matrix Treasury
 
-This is a Solidity contract that serves as an assets vault for the Exchange contract. By separating the Treasury, it allows the Exchange contract to be updated with bug fixes and new features while guaranteeing that assets are always protected.
+This is a Solidity contract that serves as a __Multi-tenant Secure Assets Vault__ for the Exchange's (Solidity) contracts. By separating the Treasury, it allows the Exchange's contracts to be upgraded with bug fixes and new features, while guaranteeing that assets ALWAYS remain SAFU!
 
 ### SHA-Matrix Gov
 
@@ -126,11 +124,15 @@ To establish trust in the network, participants will be limited to the active po
 
 ## Treasury
 
-The exchange's Treasury is a smart contract ([__SHA_Matrix_Treasury.sol__](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Treasury.sol)) that manages vaults for ANY form of crypto asset: SEP-20, SEP-721, SEP-1155 and the like.
+The exchange's Treasury is a smart contract ([__SHA_Matrix_Treasury.sol__](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Treasury.sol)) that manages vaults for ANY form of crypto asset:
+- SEP-20
+- SEP-721
+- SEP-1155
+- and more..
 
 ## Validators
 
-The active [__XHedge Validators__](https://xhedge.cash/validators) will provide the security for the exchange.
+The active [__XHedge Validators__](https://xhedge.cash/validators) provide the highest level of trust &amp; security for the exchange.
 
 # Part II: SHA-Matrix
 
@@ -138,7 +140,7 @@ As an alternative to the [__SHA-Gate v2 contract__](https://smartbch.medium.com/
 
 # Part III: Discussion of Exchange Design
 
-The ideal goal of the SBX would be to serve as central Clearing House and a point of "trust" for the many independently run Services in the SmartBCH community.
+The ideal goal of the SBX would be to serve as central Clearing House and a point of "trust" for the many independently run Services in the Bitcoin Cash and SmartBCH communities.
 
 ## Communications
 
