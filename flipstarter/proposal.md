@@ -79,7 +79,7 @@ The NEW Smart Bitcoin Exchange (SBX) Server will be a multi-platform application
 
 > Approx. 50 hours @ $85/hr
 
-A suite of smart contracts will be deployed to manage the SBX.
+A suite of smart contracts will be deployed to manage the SBX:
 
 - ↳ [SHA_Matrix_Exchange.cash](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/CashScript/SHA_Matrix_Exchange.cash) (CashScript)
 - ↳ [SHA_Matrix_Exchange.sol](https://gitlab.com/bchplease/sbx/-/blob/master/contracts/Solidity/SHA_Matrix_Exchange.sol) (Solidity)
