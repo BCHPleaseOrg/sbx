@@ -1,8 +1,8 @@
 # PROPOSAL: Smart Bitcoin Exchange (SBX) — A "Smart" Bailout Plan
 
-> _Last updated: __Thursday, July 7th 2022___  
-_Author(s): __Shomari__ ([nyusternie](https://twitter.com/ShomariPrince)) • ..._  
-Source: https://gitlab.com/bchplease/sbx/-/blob/master/PROPOSAL.md
+> _Author(s): __Shomari__ ([nyusternie](https://twitter.com/ShomariPrince)) • ([join us](https://join.slack.com/t/bchplease/shared_invite/zt-e7jj03j5-vJbe47kNrPBjTgTXwLNRkA))_  
+_Source: https://gitlab.com/bchplease/sbx/-/blob/master/PROPOSAL.md_  
+_Last updated: __Thursday, July 7th 2022___
 
 ### ↳ https://sbx.cash
 
