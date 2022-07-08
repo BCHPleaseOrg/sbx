@@ -16,6 +16,8 @@ This is an emergency proposal to mint a __NEW $SBX token__ to fully "socialize" 
 
 ## TL;DR —
 
-This is a Flipstarter campaign with the purpose of expediting the work involved in producing a "functional" MVP to present to the SmartBCH _(~$10M)_ bagholders. We aim to incentivize them by minting a __NEW $SBX token__ and introducing an __NEW Cross-chain _(ie. $WETH, $WAVAX, $CAKE, CryptoPunks, etc)_ Asset Bridge__ that will generate the revenue _(0.1%)_ needed to pay back the _(Bailout)_ contract holders with a PROFIT!
+This is a Flipstarter campaign with the purpose of __expediting__ the work involved in producing a "functional" MVP to present to the SmartBCH _(~$10M)_ bagholders.
+
+We aim to incentivize them by minting a __NEW $SBX token__ and introducing a __NEW Cross-chain _(ie. $WETH, $WAVAX, $CAKE, CryptoPunks, etc)_ Asset Bridge__ that will generate the revenue _(0.1%)_ needed to pay back the _(Bailout)_ contract holders with a PROFIT!
 
 -
