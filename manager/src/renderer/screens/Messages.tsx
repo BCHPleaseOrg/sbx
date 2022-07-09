@@ -13,10 +13,9 @@ const Nodes = () => {
                 </h1>
 
                 <h3 className="flex justify-center items-center text-gray-500 font-bold opacity-70">
-                    1
+                    3
                     <small className="ml-1 uppercase">unread message(s)</small>
                 </h3>
-
             </section>
 
             <section className="px-3 flex justify-around">
