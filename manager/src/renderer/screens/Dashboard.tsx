@@ -75,19 +75,19 @@ const Dashboard = () => {
 
             <section className="flex flex-row px-3 justify-around">
 
-                <Link to="/nodes" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                <Link to="/nodes" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-105">
                     <span className="text-lg text-gray-800 font-bold uppercase">
                         Nodes
                     </span>
                 </Link>
 
-                <Link to="/federation" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                <Link to="/federation" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-105">
                     <span className="text-lg text-gray-800 font-bold uppercase">
                         The Fed
                     </span>
                 </Link>
 
-                <Link to="/settings" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-110">
+                <Link to="/settings" className="w-32 px-5 py-1 flex flex-col items-center group bg-gray-100 border-2 border-blue-500 rounded-lg shadow-md transform duration-200 hover:scale-105">
                     <span className="text-lg text-gray-800 font-bold uppercase">
                         Settings
                     </span>
@@ -98,7 +98,7 @@ const Dashboard = () => {
             <div className="my-2 mx-2 border-t border-gray-500" />
 
             <section>
-                <div className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                <Link to="/validators" className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
                     <h3 className="text-gray-500 font-bold">
                         XHedge Validators
                     </h3>
@@ -112,9 +112,9 @@ const Dashboard = () => {
                             (32)
                         </h3>
                     </div>
-                </div>
+                </Link>
 
-                <div className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                <Link to="/messages" className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
                     <h3 className="text-gray-500 font-bold">
                         Messages
                     </h3>
@@ -122,17 +122,17 @@ const Dashboard = () => {
                     <h3 className="text-gray-700 text-lg font-bold">
                         1 (10)
                     </h3>
-                </div>
+                </Link>
 
-                <div className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md">
+                <Link to="/voting" className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
                     <h3 className="text-gray-500 font-bold">
                         Voting Proposals
                     </h3>
 
                     <h3 className="text-gray-700 text-lg font-bold">
-                        0 (3)
+                        1 (3)
                     </h3>
-                </div>
+                </Link>
             </section>
 
         </main>

@@ -24,9 +24,17 @@ const Dashboard = () => {
         <main>
             <Header />
 
-            <h1 className="mt-3 text-center text-base text-gray-500 font-bold uppercase">
-                The Federation
-            </h1>
+            <section className="m-3">
+                <h1 className="tracking-widest text-2xl font-bold text-gray-500 text-center opacity-50 uppercase">
+                    Federation Dashboard
+                </h1>
+
+                <h3 className="flex justify-center items-center text-gray-500 font-bold opacity-70">
+                    33
+                    <small className="ml-1 uppercase">members connected</small>
+                </h3>
+
+            </section>
 
             <section className="p-3 flex flex-row gap-2">
 
