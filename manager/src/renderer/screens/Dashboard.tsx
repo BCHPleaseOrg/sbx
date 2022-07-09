@@ -51,12 +51,32 @@ const Dashboard = () => {
                             </div>
                         </div>
 
+                        <div className="absolute top-14 right-5 flex z-10">
+                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-pink-700 bg-pink-500 text-sm rounded-full">
+                                <span className="text-sm text-pink-200 font-bold">
+                                    D
+                                </span>
+                            </Link>
+
+                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-pink-700 bg-pink-500 text-sm rounded-full">
+                                <span className="text-sm text-pink-200 font-bold">
+                                    W
+                                </span>
+                            </Link>
+
+                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-pink-700 bg-pink-500 text-sm rounded-full">
+                                <span className="text-sm text-pink-200 font-bold">
+                                    M
+                                </span>
+                            </Link>
+                        </div>
+
                         <VictoryChart
                             className="mt-0"
                             style={{
                               data: { fill: "tomato", opacity: 0.7 },
                               labels: { fontSize: 12 },
-                              parent: { marginTop: -20, height: 175 }
+                              parent: { marginTop: -16, height: 175 }
                             }}
                             domainPadding={20}
                         >
