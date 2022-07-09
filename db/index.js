@@ -80,7 +80,8 @@ async function main () {
  * Run Test
  */
 const runTest = async () => {
-    console.log('\n  Running test...\n')
+    console.log('\n  Starting test...')
+    console.info('___________________________________________________________________________')
 
     let data
     let success
@@ -116,6 +117,12 @@ const runTest = async () => {
     const testDb = await orbitDb.docs('test-db', testOptions)
     // console.log('\nTEST DB', testDb)
 
+    testDb.events.on('replicated', () => {
+        console.info('\n  Test Database has been replicated.')
+        // const result = db2.iterator({ limit: -1 }).collect().map(e => e.payload.value)
+        // console.log(result.join('\n'))
+    })
+
     // where the hash is the `identity2.publicKey`
     // await db.access
     //     .grant(
@@ -123,7 +130,6 @@ const runTest = async () => {
     //         '04ad4d2a7812cac1f0e6331edf22cec1a74b9694de6ad222b7cead06f79ec44a95e14b002ee7a0f6f03921fcf2ff646724175d1d31de4876c99dcc582cde835b4c'
     //     ) // grant access to database2
 
-    console.info('___________________________________________________________________________')
     console.info()
     console.info(`  All databases are ready to go!`)
     // console.info('  ID -> ' + db.id)
@@ -131,15 +137,14 @@ const runTest = async () => {
     console.info('  Address (test-db) -> ' + testDb.address.toString())
 
     const _write = async () => {
-        /* Load database. */
-        await testDb.load()
-
         // test entry
         // FOR DEVELOPMENT PURPOSES ONLY
         success = await testDb.put({
             _id: 'test',
             name: 'test-doc-db',
             category: 'distributed'
+        }, {
+            pin: true,
         })
         .catch(err => {
             console.error('\n  ↓ ↓ ↓ Oops! Something went wrong! ↓ ↓ ↓\n')
@@ -150,15 +155,14 @@ const runTest = async () => {
     }
 
     const _writeAgain = async () => {
-        /* Load database. */
-        await testDb.load()
-
         // test entry
         // FOR DEVELOPMENT PURPOSES ONLY
         success = await testDb.put({
             _id: 'test-nixin',
             name: 'test-again-doc-db',
             category: 'nixin'
+        }, {
+            pin: true,
         })
         .catch(err => {
             console.error('\n  ↓ ↓ ↓ Oops! Something went wrong! ↓ ↓ ↓\n')
@@ -169,24 +173,18 @@ const runTest = async () => {
     }
 
     const _get = async () => {
-        /* Load database. */
-        await testDb.load()
-
         data = testDb.get('')
         // data = testDb.all
         console.log('\nDATA', data.length, data)
     }
 
     const _query = async () => {
-        /* Load database. */
-        await testDb.load()
-
         data = testDb.query((doc) => doc.category === 'nil')
         console.log('\nQUERY', data.length, data)
     }
 
     /* Load database. */
-    // await testDb.load()
+    await testDb.load()
 
     // await _write()
     await _writeAgain()
@@ -194,7 +192,9 @@ const runTest = async () => {
     await _get()
     // await _query()
 
-    console.info('\n  Test completed!\n')
+    console.info()
+    console.info('___________________________________________________________________________')
+    console.info('\n  Test completed successfully!\n')
 }
 
 /* Begin initialization. */
