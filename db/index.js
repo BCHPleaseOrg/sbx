@@ -88,31 +88,32 @@ const runTest = async () => {
     const logOptions = {
         // Give write access to the creator of the database
         accessController: {
-            type: 'orbitdb', // OrbitDBAccessController
-            write: ['*'] // enable write access to the public
+            write: [
+                orbitDb.identity.id,
+                // '042c07044e7ea51a489c02854db5e09f0191690dc59db0afd95328c9db614a2976e088cab7c86d7e48183191258fc59dc699653508ce25bf0369d67f33d5d77839'
+            ],
         }
     }
 
     const testOptions = {
         // Give write access to the creator of the database
         accessController: {
-            type: 'orbitdb', // OrbitDBAccessController
+            // write: ['*'] // enable write access to the public
             write: [
                 orbitDb.identity.id,
-                '04ad4d2a7812cac1f0e6331edf22cec1a74b9694de6ad222b7cead06f79ec44a95e14b002ee7a0f6f03921fcf2ff646724175d1d31de4876c99dcc582cde835b4c'
+                '042c07044e7ea51a489c02854db5e09f0191690dc59db0afd95328c9db614a2976e088cab7c86d7e48183191258fc59dc699653508ce25bf0369d67f33d5d77839',
+                '04ad4d2a7812cac1f0e6331edf22cec1a74b9694de6ad222b7cead06f79ec44a95e14b002ee7a0f6f03921fcf2ff646724175d1d31de4876c99dcc582cde835b4c',
             ],
         }
     }
 
     /* Initialize Logs database. */
-    // const logsDb = await orbitDb.eventlog('logs', logOptions)
-    const logsDb = await orbitDb.eventlog('logs')
+    const logsDb = await orbitDb.eventlog('logs', logOptions)
     // console.log('\nLOGS DB', logsDb)
 
     /* Initialize Test database. */
     // FOR DEVELOPMENT PURPOSES ONLY
-    // const testDb = await orbitDb.docs('test-db', testOptions)
-    const testDb = await orbitDb.docs('test-db')
+    const testDb = await orbitDb.docs('test-db', testOptions)
     // console.log('\nTEST DB', testDb)
 
     // where the hash is the `identity2.publicKey`
@@ -130,6 +131,9 @@ const runTest = async () => {
     console.info('  Address (test-db) -> ' + testDb.address.toString())
 
     const _write = async () => {
+        /* Load database. */
+        await testDb.load()
+
         // test entry
         // FOR DEVELOPMENT PURPOSES ONLY
         success = await testDb.put({
@@ -138,7 +142,7 @@ const runTest = async () => {
             category: 'distributed'
         })
         .catch(err => {
-            console.error('Oops! Something went wrong.')
+            console.error('\n  ↓ ↓ ↓ Oops! Something went wrong! ↓ ↓ ↓\n')
             console.error(err)
         })
         console.log('\nSUCCESS', success)
@@ -146,15 +150,18 @@ const runTest = async () => {
     }
 
     const _writeAgain = async () => {
+        /* Load database. */
+        await testDb.load()
+
         // test entry
         // FOR DEVELOPMENT PURPOSES ONLY
         success = await testDb.put({
-            _id: 'test-again',
+            _id: 'test-nixin',
             name: 'test-again-doc-db',
-            category: 'distributed'
+            category: 'nixin'
         })
         .catch(err => {
-            console.error('Oops! Something went wrong.')
+            console.error('\n  ↓ ↓ ↓ Oops! Something went wrong! ↓ ↓ ↓\n')
             console.error(err)
         })
         console.log('\nSUCCESS', success)
@@ -165,16 +172,27 @@ const runTest = async () => {
         /* Load database. */
         await testDb.load()
 
-        data = testDb.get('') // NOTE: This gets all the entries in the database store.
+        data = testDb.get('')
+        // data = testDb.all
         console.log('\nDATA', data.length, data)
     }
 
-    /* Load database. */
-    await testDb.load()
+    const _query = async () => {
+        /* Load database. */
+        await testDb.load()
 
-    await _write()
-    // await _writeAgain()
+        data = testDb.query((doc) => doc.category === 'nil')
+        console.log('\nQUERY', data.length, data)
+    }
+
+    /* Load database. */
+    // await testDb.load()
+
+    // await _write()
+    await _writeAgain()
+    // await testDb.del('test')
     await _get()
+    // await _query()
 
     console.info('\n  Test completed!\n')
 }
