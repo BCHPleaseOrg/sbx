@@ -7,36 +7,36 @@ const Nodes = () => {
         <main>
             <Header />
 
-            <h1 className="mt-10 text-5xl text-pink-300 font-bold">
-                Nodes
-            </h1>
+            <section className="m-3">
+                <h1 className="tracking-widest text-2xl font-bold text-gray-500 text-center opacity-50 uppercase">
+                    Node Manager
+                </h1>
 
-            <section className="">
-                <a
-                    href="https://electron-react-boilerplate.js.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <button type="button">
-                    <span role="img" aria-label="books">
-                    📚
-                    </span>
-                    Read our docs
-                    </button>
-                </a>
+                <h3 className="flex justify-center items-center text-gray-500 font-bold opacity-70">
+                    12
+                    <small className="ml-1 uppercase">nodes connected</small>
+                </h3>
 
-                <a
-                    href="https://github.com/sponsors/electron-react-boilerplate"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <button type="button">
-                    <span role="img" aria-label="books">
-                    🙏
+            </section>
+
+            <section className="px-3 flex justify-around">
+                <button className="px-3 py-1 bg-pink-600 border-4 border-pink-700 rounded-xl">
+                    <span className="text-sm text-pink-200 font-bold">
+                        (+) DigitalOcean VPS
                     </span>
-                    Donate
-                    </button>
-                </a>
+                </button>
+
+                <button className="px-3 py-1 bg-pink-600 border-4 border-pink-700 rounded-xl">
+                    <span className="text-sm text-pink-200 font-bold">
+                        (+) Vultr VPS
+                    </span>
+                </button>
+
+                <button className="px-3 py-1 bg-pink-600 border-4 border-pink-700 rounded-xl">
+                    <span className="text-sm text-pink-200 font-bold">
+                        (+) Custom VPS
+                    </span>
+                </button>
             </section>
 
         </main>
