@@ -8,4 +8,6 @@ Please note that "official" documentation is located at:
 
 All diagrams are created using Created using draw.io (https://app.diagrams.net/) and saved as XML in the `/docs` folder.
 
-1. SHA-Matrix
+## SHA-Matrix
+
+![SHA-Matrix diagram](https://gitlab.com/bchplease/sbx/-/raw/master/docs/SHA-Matrix.drawio.png)
