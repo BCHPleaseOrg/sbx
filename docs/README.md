@@ -6,4 +6,6 @@ Please note that "official" documentation is located at:
 
 # Diagrams
 
+All diagrams are created using Created using draw.io (https://app.diagrams.net/) and saved as XML in the `/docs` folder.
+
 1. SHA-Matrix
