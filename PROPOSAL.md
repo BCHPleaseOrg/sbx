@@ -11,9 +11,9 @@ Introducing a __distributed Proof-of-Stake (dPOS)__ network of SmartBCH stakehol
 1. __Cross-chain coin transfers —__ eg. $BCH to $SBCH to $WETH to $WAVAX
 2. __Cross-chain NFT minting &amp; burning —__ eg. BAYC, CryptoPunks, Clementine's, etc.
 3. __Gas Stations —__ ie. gas-free SEP-20 &amp; SEP-721 _(meta)_ transactions
-3. __Price Oracles__
-3. __Token Mining__
-4. and more...
+4. __Price Oracles__
+5. __Token Mining__
+6. and more...
 
 ## A "Smart" Bailout Plan
 

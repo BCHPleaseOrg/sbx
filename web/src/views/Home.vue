@@ -40,14 +40,26 @@
                                     </p>
 
                                     <div class="mt-10">
-                                        <form action="javascript://" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                                            <div class="sm:flex text-center">
-                                                <div class="">
-                                                    <a href="https://flipstarter.sbx.cash"
-                                                        class="block w-full py-3 px-6 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white text-2xl font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
-                                                    >
-                                                        Support Our Flipstarter
-                                                    </a>
+                                        <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
+                                            <div class="flex flex-col sm:flex-row gap-4">
+                                                <div class="sm:flex text-center">
+                                                    <div class="">
+                                                        <a href="https://docs.sbx.cash/bailout"
+                                                            class="block w-full py-3 px-6 rounded-md shadow bg-gradient-to-r from-pink-700 to-blue-700 text-white text-2xl font-medium hover:from-pink-800 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                                                        >
+                                                            SBX Bailout Plan
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sm:flex text-center">
+                                                    <div class="">
+                                                        <a href="https://flipstarter.sbx.cash"
+                                                            class="block w-full py-3 px-6 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white text-2xl font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                                                        >
+                                                            Support Our Flipstarter
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -55,7 +67,7 @@
                                                 <strong>Note to Sponsors:</strong>
                                                 In the event of a successful campaign, the <strong>TOP 3 contributors</strong> will each be awarded a <strong>3% share</strong> of the 21M $SBX token distribution.
                                             </p>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
