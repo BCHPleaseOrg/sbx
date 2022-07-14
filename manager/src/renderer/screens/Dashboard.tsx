@@ -30,7 +30,7 @@ const Dashboard = () => {
                     <div className="flex gap-4">
 
                         <div className="w-96 ml-3 flex flex-col gap-4">
-                            <div className="p-2 flex flex-col border-2 border-gray-800 bg-gray-600 rounded-lg">
+                            <Link to="/volume" className="m-0 p-2 w-full flex flex-col border-2 border-gray-800 bg-gray-600 rounded-lg transform duration-200 hover:scale-105">
                                 <span className="text-gray-200 text-xs text-center font-bold uppercase">
                                     Cumulative Volume (CV)
                                 </span>
@@ -38,9 +38,9 @@ const Dashboard = () => {
                                 <span className="text-gray-200 text-lg text-center font-bold">
                                     $1,346,534,977
                                 </span>
-                            </div>
+                            </Link>
 
-                            <div className="p-2 flex flex-col border-2 border-gray-800 bg-gray-600 rounded-lg">
+                            <Link to="/tvl" className="m-0 p-2 w-full flex flex-col border-2 border-gray-800 bg-gray-600 rounded-lg transform duration-200 hover:scale-105">
                                 <span className="text-gray-200 text-xs text-center font-bold uppercase">
                                     Total Value Locked (TVL)
                                 </span>
@@ -48,7 +48,7 @@ const Dashboard = () => {
                                 <span className="text-gray-200 text-lg text-center font-bold">
                                     $3,902,470.10
                                 </span>
-                            </div>
+                            </Link>
                         </div>
 
                         <div className="absolute top-14 right-10 flex z-10">
@@ -138,7 +138,7 @@ const Dashboard = () => {
                             </span>
                         </div>
 
-                        <div className="p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg">
+                        <Link to="/txs" className="m-0 p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg transform duration-200 hover:scale-105">
                             <span className="text-gray-200 text-xs text-center font-bold uppercase">
                                 # Transactions
                             </span>
@@ -146,7 +146,7 @@ const Dashboard = () => {
                             <span className="text-gray-200 text-lg text-center font-bold">
                                 4,133,151
                             </span>
-                        </div>
+                        </Link>
                     </div>
                 </div>
 

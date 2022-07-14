@@ -16,7 +16,10 @@ import Federation from './screens/Federation'
 import Messages from './screens/Messages'
 import Nodes from './screens/Nodes'
 import Settings from './screens/Settings'
+import Transactions from './screens/Transactions'
+import TVL from './screens/TVL'
 import Validators from './screens/Validators'
+import Volume from './screens/Volume'
 import Voting from './screens/Voting'
 
 export default function App() {
@@ -31,7 +34,10 @@ export default function App() {
                     <Route path="/messages" element={<Messages />} />
                     <Route path="/nodes" element={<Nodes />} />
                     <Route path="/settings" element={<Settings />} />
+                    <Route path="/txs" element={<Transactions />} />
+                    <Route path="/tvl" element={<TVL />} />
                     <Route path="/validators" element={<Validators />} />
+                    <Route path="/volume" element={<Volume />} />
                     <Route path="/voting" element={<Voting />} />
                 </Routes>
             </Router>
