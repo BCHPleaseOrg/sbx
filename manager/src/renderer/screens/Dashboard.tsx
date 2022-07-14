@@ -128,7 +128,7 @@ const Dashboard = () => {
                             </span>
                         </Link>
 
-                        <div className="p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg">
+                        <Link to="/accounts" className="m-0 p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg transform duration-200 hover:scale-105">
                             <span className="text-gray-200 text-xs text-center font-bold uppercase">
                                 # Accounts
                             </span>
@@ -136,7 +136,7 @@ const Dashboard = () => {
                             <span className="text-gray-200 text-lg text-center font-bold">
                                 38,045
                             </span>
-                        </div>
+                        </Link>
 
                         <Link to="/txs" className="m-0 p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg transform duration-200 hover:scale-105">
                             <span className="text-gray-200 text-xs text-center font-bold uppercase">
