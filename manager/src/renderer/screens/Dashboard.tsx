@@ -29,44 +29,44 @@ const Dashboard = () => {
                 <div className="flex flex-col">
                     <div className="flex gap-4">
 
-                        <div className="w-96 ml-3 flex flex-col gap-2">
-                            <div className="p-2 flex flex-col border-2 border-pink-700 bg-pink-500 rounded-lg">
-                                <span className="text-pink-200 text-xs text-center font-bold uppercase">
-                                    Cumulative Volume
+                        <div className="w-96 ml-3 flex flex-col gap-4">
+                            <div className="p-2 flex flex-col border-2 border-gray-800 bg-gray-600 rounded-lg">
+                                <span className="text-gray-200 text-xs text-center font-bold uppercase">
+                                    Cumulative Volume (CV)
                                 </span>
 
-                                <span className="text-pink-200 text-lg text-center font-bold">
+                                <span className="text-gray-200 text-lg text-center font-bold">
                                     $1,346,534,977
                                 </span>
                             </div>
 
-                            <div className="p-2 flex flex-col border-2 border-pink-700 bg-pink-500 rounded-lg">
-                                <span className="text-pink-200 text-xs text-center font-bold uppercase">
-                                    Total Value Locked
+                            <div className="p-2 flex flex-col border-2 border-gray-800 bg-gray-600 rounded-lg">
+                                <span className="text-gray-200 text-xs text-center font-bold uppercase">
+                                    Total Value Locked (TVL)
                                 </span>
 
-                                <span className="text-pink-200 text-lg text-center font-bold">
+                                <span className="text-gray-200 text-lg text-center font-bold">
                                     $3,902,470.10
                                 </span>
                             </div>
                         </div>
 
-                        <div className="absolute top-14 right-5 flex z-10">
-                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-pink-700 bg-pink-500 text-sm rounded-full">
-                                <span className="text-sm text-pink-200 font-bold">
-                                    D
+                        <div className="absolute top-14 right-10 flex z-10">
+                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
+                                <span className="text-xs text-gray-200 font-bold">
+                                    Day
                                 </span>
                             </Link>
 
-                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-pink-700 bg-pink-500 text-sm rounded-full">
-                                <span className="text-sm text-pink-200 font-bold">
-                                    W
+                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
+                                <span className="text-xs text-gray-200 font-bold">
+                                    Wk
                                 </span>
                             </Link>
 
-                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-pink-700 bg-pink-500 text-sm rounded-full">
-                                <span className="text-sm text-pink-200 font-bold">
-                                    M
+                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
+                                <span className="text-xs text-gray-200 font-bold">
+                                    Mo
                                 </span>
                             </Link>
                         </div>
@@ -117,33 +117,33 @@ const Dashboard = () => {
                         </VictoryChart>
                     </div>
 
-                    <div className="mx-3 flex gap-2 justify-around">
-                        <div className="p-2 flex flex-col flex-grow border-2 border-pink-700 bg-pink-500 rounded-lg">
-                            <span className="text-pink-200 text-xs text-center font-bold uppercase">
-                                Total Tokens
+                    <div className="mx-3 flex gap-4 justify-around">
+                        <Link to="/assets" className="m-0 p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg transform duration-200 hover:scale-105">
+                            <span className="text-gray-200 text-xs text-center font-bold uppercase">
+                                # Assets
                             </span>
 
-                            <span className="text-pink-200 text-lg text-center font-bold">
+                            <span className="text-gray-200 text-lg text-center font-bold">
                                 14
                             </span>
-                        </div>
+                        </Link>
 
-                        <div className="p-2 flex flex-col flex-grow border-2 border-pink-700 bg-pink-500 rounded-lg">
-                            <span className="text-pink-200 text-xs text-center font-bold uppercase">
-                                Total Users
+                        <div className="p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg">
+                            <span className="text-gray-200 text-xs text-center font-bold uppercase">
+                                # Accounts
                             </span>
 
-                            <span className="text-pink-200 text-lg text-center font-bold">
+                            <span className="text-gray-200 text-lg text-center font-bold">
                                 38,045
                             </span>
                         </div>
 
-                        <div className="p-2 flex flex-col flex-grow border-2 border-pink-700 bg-pink-500 rounded-lg">
-                            <span className="text-pink-200 text-xs text-center font-bold uppercase">
-                                Cumulative Txs
+                        <div className="p-2 flex flex-col flex-grow border-2 border-gray-800 bg-gray-600 rounded-lg">
+                            <span className="text-gray-200 text-xs text-center font-bold uppercase">
+                                # Transactions
                             </span>
 
-                            <span className="text-pink-200 text-lg text-center font-bold">
+                            <span className="text-gray-200 text-lg text-center font-bold">
                                 4,133,151
                             </span>
                         </div>
@@ -177,7 +177,7 @@ const Dashboard = () => {
             </section>
 
             <section>
-                <Link to="/validators" className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
+                <Link to="/validators" className="mt-5 w-72 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
                     <h3 className="text-gray-500 font-bold">
                         XHedge Validators
                     </h3>
@@ -193,7 +193,7 @@ const Dashboard = () => {
                     </div>
                 </Link>
 
-                <Link to="/messages" className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
+                <Link to="/messages" className="mt-5 w-72 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
                     <h3 className="text-gray-500 font-bold">
                         Messages
                     </h3>
@@ -209,7 +209,7 @@ const Dashboard = () => {
                     </div>
                 </Link>
 
-                <Link to="/voting" className="mt-5 w-96 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
+                <Link to="/voting" className="mt-5 w-72 mx-auto px-3 py-1 flex justify-between items-center border-2 border-indigo-500 rounded-lg bg-indigo-100 shadow-md transform duration-200 hover:scale-105">
                     <h3 className="text-gray-500 font-bold">
                         Voting Proposals
                     </h3>

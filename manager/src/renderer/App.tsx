@@ -10,6 +10,7 @@ import icon from '../../assets/icon.svg'
 
 import './App.css'
 
+import Assets from './screens/Assets'
 import Dashboard from './screens/Dashboard'
 import Federation from './screens/Federation'
 import Messages from './screens/Messages'
@@ -24,6 +25,8 @@ export default function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
+
+                    <Route path="/assets" element={<Assets />} />
                     <Route path="/federation" element={<Federation />} />
                     <Route path="/messages" element={<Messages />} />
                     <Route path="/nodes" element={<Nodes />} />
