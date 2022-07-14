@@ -42,7 +42,7 @@ export default function App() {
                 </h3>
 
                 <div className="text-gray-500 text-xs">
-                    <FontAwesomeIcon className="text-green-300 text-sm transform -rotate-45" icon={["fab", "bitcoin"]} />
+                    <FontAwesomeIcon className="text-green-300 text-sm" icon={["fas", "signal"]} />
                 </div>
             </footer>
         </main>

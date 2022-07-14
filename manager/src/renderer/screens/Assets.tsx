@@ -1,9 +1,13 @@
 import Header from '../components/Header'
 
-import icon from '../../../assets/logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import bchIcon from 'cryptocurrency-icons/svg/icon/bch.svg'
 import btcIcon from 'cryptocurrency-icons/svg/icon/btc.svg'
+
+import icon from '../../../assets/logo.png'
+
+import ListItemAssetPair from '../components/ListItemAssetPair'
 
 const Assets = () => {
     return (
@@ -21,15 +25,20 @@ const Assets = () => {
             </section>
 
             <section className="mx-3">
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    <img src={bchIcon} className="w-16 text-blue-500" />
-                    Smart Bitcoin (sBCH) --- Bitcoin Cash (BCH)
-                    <img src={btcIcon} className="w-16 text-blue-500" />
-                </div>
+                <ListItemAssetPair
+                    base="SBCH"
+                    trade="BCH"
+                />
 
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    Smart Bitcoin (sBCH) --- Bitcoin (BTC.b)
-                </div>
+                <ListItemAssetPair
+                    base="SBCH"
+                    trade="BTC"
+                />
+
+                <ListItemAssetPair
+                    base="SBCH"
+                    trade="ETH"
+                />
 
                 <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
                     Smart Bitcoin (sBCH) --- Ethereum (ETH.b)
