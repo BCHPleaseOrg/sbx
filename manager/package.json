@@ -1,6 +1,6 @@
 {
   "name": "sbx-manager",
-  "version": "22.7.9",
+  "version": "22.7.14",
   "license": "MIT",
   "description": "SmartBCH peer-to-peer network manager, supporting: SHA-Matrix, Governance, Treasury and more..",
   "main": "./src/main/main.ts",
@@ -83,6 +83,7 @@
     "@fortawesome/free-brands-svg-icons": "6.1.1",
     "@fortawesome/free-solid-svg-icons": "6.1.1",
     "@fortawesome/react-fontawesome": "0.2.0",
+    "cryptocurrency-icons": "0.18.0",
     "electron-debug": "3.2.0",
     "electron-log": "4.4.7",
     "electron-updater": "5.0.3",
