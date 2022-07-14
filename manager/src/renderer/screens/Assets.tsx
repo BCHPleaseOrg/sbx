@@ -1,10 +1,5 @@
 import Header from '../components/Header'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import bchIcon from 'cryptocurrency-icons/svg/icon/bch.svg'
-import btcIcon from 'cryptocurrency-icons/svg/icon/btc.svg'
-
 import icon from '../../../assets/logo.png'
 
 import ListItemAssetPair from '../components/ListItemAssetPair'
@@ -14,14 +9,15 @@ const Assets = () => {
         <main>
             <Header />
 
-            <section className="mx-3">
-                <h1 className="text-5xl text-yellow-700 font-bold">
-                    Assets Template
+            <section className="m-3">
+                <h1 className="tracking-widest text-2xl font-bold text-gray-500 text-center opacity-50 uppercase">
+                    Assets
                 </h1>
 
-                <p>
-                    Bridged assets will be denoted with the suffix ".b".
-                </p>
+                <h3 className="flex justify-center items-center text-gray-500 font-bold opacity-70">
+                    Bridged assets are denoted with suffix <span className="ml-1 text-red-700 font-bold">".b"</span>
+                </h3>
+
             </section>
 
             <section className="mx-3">
@@ -39,10 +35,6 @@ const Assets = () => {
                     base="SBCH"
                     trade="ETH"
                 />
-
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    Smart Bitcoin (sBCH) --- Ethereum (ETH.b)
-                </div>
 
                 <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
                     Smart Bitcoin (sBCH) --- Binance USD (BUSD.b)

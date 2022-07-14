@@ -35,12 +35,12 @@ const ListItemAssetPair = (params) => {
     case 'BTC':
         baseIcon = btcIcon
         baseTitle = `Legacy Bitcoin`
-        baseSymbol = `BTC`
+        baseSymbol = `BTC.b`
         break
     case 'ETH':
         baseIcon = ethIcon
         baseTitle = `Ethereum`
-        baseSymbol = `ETH`
+        baseSymbol = `ETH.b`
         break
     }
 
@@ -62,12 +62,12 @@ const ListItemAssetPair = (params) => {
     case 'BTC':
         tradeIcon = btcIcon
         tradeTitle = `Legacy Bitcoin`
-        tradeSymbol = `BTC`
+        tradeSymbol = `BTC.b`
         break
     case 'ETH':
         tradeIcon = ethIcon
         tradeTitle = `Ethereum`
-        tradeSymbol = `ETH`
+        tradeSymbol = `ETH.b`
         break
     }
 
