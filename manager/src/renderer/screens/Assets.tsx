@@ -2,7 +2,7 @@ import Header from '../components/Header'
 
 import icon from '../../../assets/logo.png'
 
-import ListItemAssetPair from '../components/ListItemAssetPair'
+import ListItemAsset from '../components/ListItemAsset'
 
 const Assets = () => {
     return (
@@ -20,37 +20,18 @@ const Assets = () => {
 
             </section>
 
-            <section className="mx-3">
-                <ListItemAssetPair
-                    base="SBCH"
-                    trade="BCH"
+            <section className="mx-3 grid grid-cols-2 gap-4">
+                <ListItemAsset
+                    id="ETH"
                 />
 
-                <ListItemAssetPair
-                    base="SBCH"
-                    trade="BTC"
+                <ListItemAsset
+                    id="DAI"
                 />
 
-                <ListItemAssetPair
-                    base="SBCH"
-                    trade="ETH"
+                <ListItemAsset
+                    id="BNB"
                 />
-
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    Smart Bitcoin (sBCH) --- Binance USD (BUSD.b)
-                </div>
-
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    Smart Bitcoin (sBCH) --- Dai (DAI.b)
-                </div>
-
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    Smart Bitcoin (sBCH) --- Tether (BUSD.b)
-                </div>
-
-                <div className="mt-3 bg-pink-300 border-2 border-pink-500 rounded-lg">
-                    Smart Bitcoin (sBCH) --- USD Coin (USDC.b)
-                </div>
 
             </section>
 

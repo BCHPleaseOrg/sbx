@@ -36,7 +36,7 @@ const ListItemAssetPair = (params) => {
         baseSymbol = `BCH`
         break
     case 'BNB':
-        baseIcon = bbnIcon
+        baseIcon = bnbIcon
         baseTitle = `Binance Coin`
         baseSymbol = `BNB`
         break
