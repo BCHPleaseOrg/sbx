@@ -19,12 +19,12 @@ const data = [
     { month: 7, earnings: 29000 },
 ]
 
-const Dashboard = () => {
+const Stats = () => {
     return (
         <main>
             <section className="m-3">
                 <h1 className="tracking-widest text-2xl font-bold text-gray-500 text-center opacity-50 uppercase">
-                    Federation Dashboard
+                    Charts &amp; Graphs
                 </h1>
 
                 <h3 className="flex justify-center items-center text-gray-500 font-bold opacity-70">
@@ -124,4 +124,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Stats

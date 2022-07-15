@@ -7,8 +7,6 @@ import ListItemAsset from '../components/ListItemAsset'
 const Assets = () => {
     return (
         <main>
-            <Header />
-
             <section className="m-3">
                 <h1 className="tracking-widest text-2xl font-bold text-gray-500 text-center opacity-50 uppercase">
                     Assets

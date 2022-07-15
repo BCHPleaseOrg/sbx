@@ -10,8 +10,6 @@ import icon from '../../../assets/logo.png'
 const TVL = () => {
     return (
         <main>
-            <Header />
-
             <section className="m-3">
                 <h1 className="tracking-widest text-2xl font-bold text-gray-500 text-center opacity-50 uppercase">
                     Total Value Locked

@@ -6,8 +6,6 @@ import {
     VictoryChart,
 } from 'victory'
 
-import Header from '../components/Header'
-
 import icon from '../../../assets/logo.png'
 
 const data = [
@@ -22,8 +20,6 @@ const data = [
 const Dashboard = () => {
     return (
         <main>
-            <Header />
-
             <section className="mt-3">
 
                 <div className="flex flex-col">
@@ -52,69 +48,71 @@ const Dashboard = () => {
                         </div>
 
                         <div className="absolute top-14 right-10 flex z-10">
-                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
+                            <Link to="/stats" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
                                 <span className="text-xs text-gray-200 font-bold">
                                     Day
                                 </span>
                             </Link>
 
-                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
+                            <Link to="/stats" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
                                 <span className="text-xs text-gray-200 font-bold">
                                     Wk
                                 </span>
                             </Link>
 
-                            <Link to="/federation" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
+                            <Link to="/stats" className="mx-1 px-1 py-0 border-2 border-gray-800 bg-gray-600 text-sm rounded-full">
                                 <span className="text-xs text-gray-200 font-bold">
                                     Mo
                                 </span>
                             </Link>
                         </div>
 
-                        <VictoryChart
-                            className="mt-0"
-                            style={{
-                              data: { fill: "tomato", opacity: 0.7 },
-                              labels: { fontSize: 12 },
-                              parent: { marginTop: -16, height: 175 }
-                            }}
-                            domainPadding={20}
-                        >
-                            <VictoryAxis
-                                // tickValues specifies both the number of ticks and where
-                                // they are placed on the axis
-                                tickValues={[2, 3, 4, 5, 6, 7]}
-
-                                tickFormat={[
-                                    'Feb',
-                                    'Mar',
-                                    'Apr',
-                                    'May',
-                                    'Jun',
-                                    'Jul'
-                                ]}
-                            />
-
-                            <VictoryAxis
-                                dependentAxis
-                                // tickFormat specifies how ticks should be displayed
-                                tickFormat={(x) => (`$${x / 1000}k`)}
-                            />
-
-                            <VictoryBar
+                        <Link to="/stats" className="m-0 w-full">
+                            <VictoryChart
+                                className="mt-0"
                                 style={{
                                   data: { fill: "tomato", opacity: 0.7 },
                                   labels: { fontSize: 12 },
-                                  parent: { border: "1px solid #ccc", padding: 0, margin: 0, height: "50px" }
+                                  parent: { marginTop: -16, height: 175 }
                                 }}
+                                domainPadding={20}
+                            >
+                                <VictoryAxis
+                                    // tickValues specifies both the number of ticks and where
+                                    // they are placed on the axis
+                                    tickValues={[2, 3, 4, 5, 6, 7]}
 
-                                data={data}
-                                // data accessor for x values
-                                x="month"
-                                // data accessor for y values
-                                y="earnings"
-                            />
-                        </VictoryChart>
+                                    tickFormat={[
+                                        'Feb',
+                                        'Mar',
+                                        'Apr',
+                                        'May',
+                                        'Jun',
+                                        'Jul'
+                                    ]}
+                                />
+
+                                <VictoryAxis
+                                    dependentAxis
+                                    // tickFormat specifies how ticks should be displayed
+                                    tickFormat={(x) => (`$${x / 1000}k`)}
+                                />
+
+                                <VictoryBar
+                                    style={{
+                                      data: { fill: "tomato", opacity: 0.7 },
+                                      labels: { fontSize: 12 },
+                                      parent: { border: "1px solid #ccc", padding: 0, margin: 0, height: "50px" }
+                                    }}
+
+                                    data={data}
+                                    // data accessor for x values
+                                    x="month"
+                                    // data accessor for y values
+                                    y="earnings"
+                                />
+                            </VictoryChart>
+                        </Link>
                     </div>
 
                     <div className="mx-3 flex gap-4 justify-around">
