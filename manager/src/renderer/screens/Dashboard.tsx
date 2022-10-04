@@ -42,7 +42,7 @@ const Dashboard = () => {
                                 </span>
 
                                 <span className="text-gray-200 text-lg text-center font-bold">
-                                    $3,902,470.10
+                                    $3,902,470
                                 </span>
                             </Link>
                         </div>
